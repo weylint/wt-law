@@ -33,10 +33,23 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
+      - name: Restore cached state from gh-pages
+        run: |
+          mkdir -p output
+          if git fetch origin gh-pages --depth=1 2>/dev/null; then
+            git show origin/gh-pages:.state > output/.state 2>/dev/null || true
+          else
+            echo "No cached state found, will do a full build."
+          fi
+
       - name: Fetch Google Doc and build page
+        id: build
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python build.py
 
       - name: Deploy to GitHub Pages
+        if: steps.build.outputs.changed == 'true'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
