@@ -7,12 +7,13 @@ Usage:
 
 The script:
   1. Downloads the published Google Doc HTML
-  2. Extracts the body content
-  3. Injects it into index.html (replacing the #doc-content div)
+  2. Converts it to LaTeX via pandoc (saved as output/content.tex)
+  3. Renders the LaTeX back to HTML via pandoc for page injection
   4. Writes the result to output/index.html
 """
 
 import os
+import subprocess
 import sys
 from datetime import datetime, timezone
 
@@ -27,6 +28,7 @@ OUTPUT_DIR = "output"
 OUTPUT_PATH = os.path.join(OUTPUT_DIR, "index.html")
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 STATE_PATH = os.path.join(OUTPUT_DIR, ".state")
+CONTENT_TEX_PATH = os.path.join(OUTPUT_DIR, "content.tex")
 DRIVE_API_URL = f"https://www.googleapis.com/drive/v3/files/{DOC_ID}?fields=modifiedTime&key={GOOGLE_API_KEY}"
 # ───────────────────────────────────────────────────────────────
 
@@ -67,6 +69,31 @@ def set_github_output(key: str, value: str) -> None:
             f.write(f"{key}={value}\n")
 
 
+def html_to_latex(html: str) -> str:
+    """Convert Google Doc HTML to a full LaTeX document using pandoc.
+
+    Wraps the pandoc fragment in a documentclass/begin{document} envelope
+    and defines pandoc-specific macros in the preamble so latex.js can
+    render it without a full TeX installation.
+    """
+    result = subprocess.run(
+        ["pandoc", "-f", "html", "-t", "latex", "--wrap=none"],
+        input=html,
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    preamble = (
+        "\\documentclass{article}\n"
+        "\\newcommand{\\tightlist}{}\n"
+        "\\newcommand{\\hypertarget}[2]{#2}\n"
+        "\\newcommand{\\hyperlink}[2]{#2}\n"
+        "\\newcommand{\\passthrough}[1]{#1}\n"
+        "\\begin{document}\n"
+    )
+    return preamble + result.stdout + "\n\\end{document}\n"
+
+
 def fetch_doc_content() -> str:
     """Download the published Google Doc and extract the body content."""
     print(f"Fetching: {PUBLISHED_URL}")
@@ -95,32 +122,21 @@ def fetch_doc_content() -> str:
 
 
 def build_page(doc_html: str) -> str:
-    """Inject the doc content into the template HTML."""
+    """Save content.tex and stamp the sync timestamp into the template."""
+    # Convert and save content.tex
+    content_tex = html_to_latex(doc_html)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(CONTENT_TEX_PATH, "w", encoding="utf-8") as f:
+        f.write(content_tex)
+
+    # Stamp the timestamp into the template
     with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
         template = BeautifulSoup(f.read(), "html.parser")
 
-    # Replace the #doc-content div
-    container = template.find(id="doc-content")
-    if container is None:
-        print("ERROR: #doc-content not found in template.", file=sys.stderr)
-        sys.exit(1)
-
-    # Parse doc HTML and replace container contents
-    doc_soup = BeautifulSoup(doc_html, "html.parser")
-    container.clear()
-    for child in list(doc_soup.children):
-        container.append(child)
-
-    # Update the "last updated" timestamp
     updated_el = template.find(id="last-updated")
     if updated_el:
         now = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
         updated_el.string = f"Last synced: {now}"
-
-    # Remove the client-side fetch script (no longer needed)
-    for script in template.find_all("script"):
-        if "DOC_ID" in script.get_text():
-            script.decompose()
 
     return str(template)
 

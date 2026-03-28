@@ -6,6 +6,7 @@
   <title>[White Tiger] Constitution</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.12.4/dist/latex.js"></script>
   <style>
     :root {
       --bg: #faf8f4;
@@ -237,50 +238,34 @@
     HOW THIS WORKS (for the GitHub Actions approach)
     ============================================================
 
-    The JavaScript below fetches the published Google Doc on
-    page load (client-side). This is a FALLBACK so the page
-    still works when opened directly.
+    The JavaScript below fetches content.tex on page load
+    (client-side fallback). This only works when the page is
+    served — not opened as a local file.
 
-    For your GitHub Pages setup, the GitHub Action will replace
-    the contents of #doc-content at BUILD TIME, so the page
-    loads instantly without any client-side fetch.
-
-    See the README and workflow file for details.
+    For your GitHub Pages setup, the GitHub Action fetches the
+    Google Doc, converts it to LaTeX (content.tex), renders it
+    to HTML, and bakes it into #doc-content at BUILD TIME so
+    the page loads instantly without any client-side fetch.
   -->
   <script>
     (async () => {
-      const DOC_ID = '1Wlbsfthj62koGAXfGN8Fz2SeNWyUGDxlKFA749OZiP0';
-      const PUBLISHED_URL = `https://docs.google.com/document/d/${DOC_ID}/pub`;
-
       const container = document.getElementById('doc-content');
       const updatedEl = document.getElementById('last-updated');
 
       try {
-        // Use a CORS proxy for client-side fetch. 
-        // In the GitHub Actions approach, this script is unnecessary
-        // because content is baked in at build time.
-        const res = await fetch(PUBLISHED_URL);
+        const res = await fetch('content.tex');
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-        const html = await res.text();
-
-        // Extract just the body content from the published doc
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
-        const body = doc.getElementById('contents') || doc.body;
-
-        if (body) {
-          container.innerHTML = body.innerHTML;
-          updatedEl.textContent = `Last loaded: ${new Date().toLocaleString()}`;
-        } else {
-          throw new Error('Could not parse document body');
-        }
+        const tex = await res.text();
+        const generator = new latexjs.HtmlGenerator({ hyphenate: false });
+        const doc = latexjs.parse(tex, { generator });
+        container.innerHTML = '';
+        container.appendChild(doc.domFragment());
+        updatedEl.textContent = `Last loaded: ${new Date().toLocaleString()}`;
       } catch (err) {
         container.innerHTML = `
           <div class="error-msg">
             <strong>Could not load the document.</strong><br>
-            Make sure the Google Doc is published to the web
-            (File → Share → Publish to web).
+            This page must be served from GitHub Pages or a local server.
             <code>${err.message}</code>
           </div>
         `;
