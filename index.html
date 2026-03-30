@@ -6,7 +6,7 @@
   <title>[White Tiger] Constitution</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.12.4/dist/latex.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
     :root {
       --bg: #faf8f4;
@@ -173,6 +173,12 @@
       margin: 2rem 0;
     }
 
+    #doc-content sup {
+      vertical-align: super;
+      font-size: 0.75em;
+      line-height: 0;
+    }
+
     /* Error state */
     .error-msg {
       background: #fef2ef;
@@ -238,14 +244,13 @@
     HOW THIS WORKS (for the GitHub Actions approach)
     ============================================================
 
-    The JavaScript below fetches content.tex on page load
+    The JavaScript below fetches content.md on page load
     (client-side fallback). This only works when the page is
     served — not opened as a local file.
 
     For your GitHub Pages setup, the GitHub Action fetches the
-    Google Doc, converts it to LaTeX (content.tex), renders it
-    to HTML, and bakes it into #doc-content at BUILD TIME so
-    the page loads instantly without any client-side fetch.
+    Google Doc, converts it to Markdown (content.md), and stamps
+    the timestamp into the template at BUILD TIME.
   -->
   <script>
     (async () => {
@@ -253,13 +258,10 @@
       const updatedEl = document.getElementById('last-updated');
 
       try {
-        const res = await fetch('content.tex');
+        const res = await fetch('content.md');
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const tex = await res.text();
-        const generator = new latexjs.HtmlGenerator({ hyphenate: false });
-        const doc = latexjs.parse(tex, { generator });
-        container.innerHTML = '';
-        container.appendChild(doc.domFragment());
+        const text = await res.text();
+        container.innerHTML = marked.parse(text);
         updatedEl.textContent = `Last loaded: ${new Date().toLocaleString()}`;
       } catch (err) {
         container.innerHTML = `

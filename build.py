@@ -7,18 +7,18 @@ Usage:
 
 The script:
   1. Downloads the published Google Doc HTML
-  2. Converts it to LaTeX via pandoc (saved as output/content.tex)
-  3. Renders the LaTeX back to HTML via pandoc for page injection
-  4. Writes the result to output/index.html
+  2. Converts it to Markdown via markdownify (saved as output/content.md)
+  3. Writes the timestamped template to output/index.html
 """
 
 import os
-import subprocess
+import re
 import sys
 from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
+from markdownify import markdownify as to_md
 
 # ── Configuration ──────────────────────────────────────────────
 DOC_ID = "1Wlbsfthj62koGAXfGN8Fz2SeNWyUGDxlKFA749OZiP0"
@@ -28,7 +28,7 @@ OUTPUT_DIR = "output"
 OUTPUT_PATH = os.path.join(OUTPUT_DIR, "index.html")
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 STATE_PATH = os.path.join(OUTPUT_DIR, ".state")
-CONTENT_TEX_PATH = os.path.join(OUTPUT_DIR, "content.tex")
+CONTENT_MD_PATH = os.path.join(OUTPUT_DIR, "content.md")
 DRIVE_API_URL = f"https://www.googleapis.com/drive/v3/files/{DOC_ID}?fields=modifiedTime&key={GOOGLE_API_KEY}"
 # ───────────────────────────────────────────────────────────────
 
@@ -69,67 +69,79 @@ def set_github_output(key: str, value: str) -> None:
             f.write(f"{key}={value}\n")
 
 
-def html_to_latex(html: str) -> str:
-    """Convert Google Doc HTML to a full LaTeX document using pandoc.
+def fetch_doc_content() -> tuple[str, str]:
+    """Download the published Google Doc and extract the body content.
 
-    Wraps the pandoc fragment in a documentclass/begin{document} envelope
-    and defines pandoc-specific macros in the preamble so latex.js can
-    render it without a full TeX installation.
+    Returns (contents_html, full_page_html). The full page HTML is needed so
+    that CSS class detection for superscripts can find the <style> tag in <head>.
     """
-    result = subprocess.run(
-        ["pandoc", "-f", "html", "-t", "latex", "--wrap=none"],
-        input=html,
-        capture_output=True,
-        text=True,
-        check=True,
-    )
-    preamble = (
-        "\\documentclass{article}\n"
-        "\\newcommand{\\tightlist}{}\n"
-        "\\newcommand{\\hypertarget}[2]{#2}\n"
-        "\\newcommand{\\hyperlink}[2]{#2}\n"
-        "\\newcommand{\\passthrough}[1]{#1}\n"
-        "\\begin{document}\n"
-    )
-    return preamble + result.stdout + "\n\\end{document}\n"
-
-
-def fetch_doc_content() -> str:
-    """Download the published Google Doc and extract the body content."""
     print(f"Fetching: {PUBLISHED_URL}")
     resp = requests.get(PUBLISHED_URL, timeout=30)
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Google wraps the doc body in a div with id="contents"
-    contents = soup.find(id="contents")
-    if contents is None:
-        # Fallback: grab the whole <body>
-        contents = soup.body
+    contents = soup.find(id="contents") or soup.body
 
     if contents is None:
         print("ERROR: Could not find document content.", file=sys.stderr)
         sys.exit(1)
 
-    # Optionally strip Google's inline styles for cleaner output
-    # (uncomment the next 3 lines if you want fully clean HTML)
-    # for tag in contents.find_all(True):
-    #     if 'style' in tag.attrs:
-    #         del tag.attrs['style']
-
-    return str(contents)
+    return str(contents), resp.text
 
 
-def build_page(doc_html: str) -> str:
-    """Save content.tex and stamp the sync timestamp into the template."""
-    # Convert and save content.tex
-    content_tex = html_to_latex(doc_html)
+def _find_super_sub_classes(soup: BeautifulSoup) -> tuple[set, set]:
+    """Return (superscript_classes, subscript_classes) from all <style> blocks in the page."""
+    css = "".join(st.get_text() for st in soup.find_all("style")).replace(" ", "")
+    sup_classes: set = set()
+    sub_classes: set = set()
+    for m in re.finditer(r"\.(c\w+)\{([^}]+)\}", css):
+        body = m.group(2)
+        if "vertical-align:super" in body:
+            sup_classes.add(m.group(1))
+        elif "vertical-align:sub" in body:
+            sub_classes.add(m.group(1))
+    return sup_classes, sub_classes
+
+
+def _normalize_superscripts(html: str, full_html: str = "") -> str:
+    """Convert Google Docs superscript/subscript spans to <sup>/<sub>."""
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Detect which CSS classes carry vertical-align:super/sub.
+    # The <style> block lives in <head>, so we need the full page HTML.
+    full_soup = BeautifulSoup(full_html, "html.parser") if full_html else soup
+    sup_classes, sub_classes = _find_super_sub_classes(full_soup)
+
+    for span in soup.find_all("span", class_=True):
+        classes = set(span.get("class", []))
+        if classes & sup_classes:
+            span.name = "sup"
+            del span["class"]
+        elif classes & sub_classes:
+            span.name = "sub"
+            del span["class"]
+
+    # Also handle explicit inline vertical-align styles
+    for span in soup.find_all("span", style=True):
+        style = span["style"].replace(" ", "")
+        if "vertical-align:super" in style:
+            span.name = "sup"
+            del span["style"]
+        elif "vertical-align:sub" in style:
+            span.name = "sub"
+            del span["style"]
+
+    return str(soup)
+
+
+def build_page(doc_html: str, full_html: str = "") -> str:
+    """Save content.md and stamp the sync timestamp into the template."""
+    content_md = to_md(_normalize_superscripts(doc_html, full_html), heading_style="ATX", sup_symbol="<sup>", sub_symbol="<sub>")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(CONTENT_TEX_PATH, "w", encoding="utf-8") as f:
-        f.write(content_tex)
+    with open(CONTENT_MD_PATH, "w", encoding="utf-8") as f:
+        f.write(content_md)
 
-    # Stamp the timestamp into the template
     with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
         template = BeautifulSoup(f.read(), "html.parser")
 
@@ -150,8 +162,8 @@ def main():
         set_github_output("changed", "false")
         return
 
-    doc_html = fetch_doc_content()
-    page_html = build_page(doc_html)
+    doc_html, full_html = fetch_doc_content()
+    page_html = build_page(doc_html, full_html)
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
@@ -162,7 +174,6 @@ def main():
 
     set_github_output("changed", "true")
     print(f"Built: {OUTPUT_PATH}")
-    print("Done!")
 
 
 if __name__ == "__main__":
