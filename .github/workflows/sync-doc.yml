@@ -37,6 +37,7 @@ jobs:
         run: pip install requests beautifulsoup4 markdownify
 
       - name: Restore cached state from gh-pages
+        if: github.event_name != 'push'
         run: |
           mkdir -p output
           if git fetch origin gh-pages --depth=1 2>/dev/null; then
