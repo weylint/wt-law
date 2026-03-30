@@ -3,7 +3,7 @@ name: Sync Google Doc to GitHub Pages
 on:
   # Run every 10 minutes
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '0 * * * *'
 
   # Also run on manual trigger
   workflow_dispatch:
@@ -52,7 +52,7 @@ jobs:
         run: python build.py
 
       - name: Deploy to GitHub Pages
-        if: steps.build.outputs.changed == 'true'
+        if: steps.build.outputs.changed == 'true' || github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
