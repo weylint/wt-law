@@ -1,65 +1,77 @@
 """
-build.py — Fetches a published Google Doc and bakes its content
-into index.html so it loads instantly on GitHub Pages.
+build.py — Fetches published Google Docs and converts them to Markdown.
 
 Usage:
     python build.py
 
-The script:
-  1. Downloads the published Google Doc HTML
-  2. Converts it to Markdown via markdownify (saved as output/content.md)
-  3. Writes the timestamped template to output/index.html
+The script checks Drive API modifiedTime for each doc and skips unchanged
+ones. Changed docs are fetched, converted to Markdown, and saved to output/.
 """
 
+import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
 from markdownify import markdownify as to_md
 
 # ── Configuration ──────────────────────────────────────────────
-DOC_ID = "1Wlbsfthj62koGAXfGN8Fz2SeNWyUGDxlKFA749OZiP0"
-PUBLISHED_URL = f"https://docs.google.com/document/d/{DOC_ID}/pub"
-TEMPLATE_PATH = "index.html"
 OUTPUT_DIR = "output"
-OUTPUT_PATH = os.path.join(OUTPUT_DIR, "index.html")
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 STATE_PATH = os.path.join(OUTPUT_DIR, ".state")
-CONTENT_MD_PATH = os.path.join(OUTPUT_DIR, "content.md")
-DRIVE_API_URL = f"https://www.googleapis.com/drive/v3/files/{DOC_ID}?fields=modifiedTime&key={GOOGLE_API_KEY}"
+
+DOCS = [
+    {
+        "name": "constitution",
+        "doc_id": "1Wlbsfthj62koGAXfGN8Fz2SeNWyUGDxlKFA749OZiP0",
+        "output_md": os.path.join(OUTPUT_DIR, "constitution.md"),
+    },
+    {
+        "name": "federal-law",
+        "doc_id": "1GsXK8j9ivQAArb1RPeeQJJOcstsp1eJL2OdOhrkvqvc",
+        "output_md": os.path.join(OUTPUT_DIR, "federal-law.md"),
+    },
+    {
+        "name": "server-rules",
+        "doc_id": "1u45j3U72fPs5LrnOejunLFFEo8FpTxO3mREZnFemNM4",
+        "output_md": os.path.join(OUTPUT_DIR, "server-rules.md"),
+    },
+]
 # ───────────────────────────────────────────────────────────────
 
 
-def get_remote_modified_time() -> str | None:
+def get_remote_modified_time(doc_id: str) -> str | None:
     """Query Drive API for the doc's modifiedTime. Returns ISO string or None on failure."""
     if not GOOGLE_API_KEY:
-        print("WARNING: GOOGLE_API_KEY not set — skipping change detection, full build will run.")
         return None
+    url = f"https://www.googleapis.com/drive/v3/files/{doc_id}?fields=modifiedTime&key={GOOGLE_API_KEY}"
     try:
-        resp = requests.get(DRIVE_API_URL, timeout=15)
+        resp = requests.get(url, timeout=15)
         resp.raise_for_status()
         return resp.json().get("modifiedTime")
     except Exception as e:
-        print(f"WARNING: Could not fetch modifiedTime ({e}), falling back to full build.")
+        print(f"WARNING: Could not fetch modifiedTime for {doc_id} ({e}), will rebuild.")
         return None
 
 
-def read_cached_time() -> str | None:
-    """Read the last-known modifiedTime from STATE_PATH."""
+def read_cached_times() -> dict:
+    """Read the last-known modifiedTime per doc_id from STATE_PATH (JSON)."""
     try:
         with open(STATE_PATH) as f:
-            return f.read().strip() or None
-    except FileNotFoundError:
-        return None
+            data = json.load(f)
+            if isinstance(data, dict):
+                return data
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    return {}
 
 
-def write_cached_time(modified_time: str) -> None:
+def write_cached_times(times: dict) -> None:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(STATE_PATH, "w") as f:
-        f.write(modified_time)
+        json.dump(times, f)
 
 
 def set_github_output(key: str, value: str) -> None:
@@ -69,22 +81,21 @@ def set_github_output(key: str, value: str) -> None:
             f.write(f"{key}={value}\n")
 
 
-def fetch_doc_content() -> tuple[str, str]:
-    """Download the published Google Doc and extract the body content.
+def fetch_doc_content(url: str) -> tuple[str, str]:
+    """Download a published Google Doc and extract the body content.
 
     Returns (contents_html, full_page_html). The full page HTML is needed so
     that CSS class detection for superscripts can find the <style> tag in <head>.
     """
-    print(f"Fetching: {PUBLISHED_URL}")
-    resp = requests.get(PUBLISHED_URL, timeout=30)
+    print(f"Fetching: {url}")
+    resp = requests.get(url, timeout=30)
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "html.parser")
-
     contents = soup.find(id="contents") or soup.body
 
     if contents is None:
-        print("ERROR: Could not find document content.", file=sys.stderr)
+        print(f"ERROR: Could not find document content at {url}", file=sys.stderr)
         sys.exit(1)
 
     return str(contents), resp.text
@@ -108,8 +119,6 @@ def _normalize_superscripts(html: str, full_html: str = "") -> str:
     """Convert Google Docs superscript/subscript spans to <sup>/<sub>."""
     soup = BeautifulSoup(html, "html.parser")
 
-    # Detect which CSS classes carry vertical-align:super/sub.
-    # The <style> block lives in <head>, so we need the full page HTML.
     full_soup = BeautifulSoup(full_html, "html.parser") if full_html else soup
     sup_classes, sub_classes = _find_super_sub_classes(full_soup)
 
@@ -122,7 +131,6 @@ def _normalize_superscripts(html: str, full_html: str = "") -> str:
             span.name = "sub"
             del span["class"]
 
-    # Also handle explicit inline vertical-align styles
     for span in soup.find_all("span", style=True):
         style = span["style"].replace(" ", "")
         if "vertical-align:super" in style:
@@ -135,45 +143,56 @@ def _normalize_superscripts(html: str, full_html: str = "") -> str:
     return str(soup)
 
 
-def build_page(doc_html: str, full_html: str = "") -> str:
-    """Save content.md and stamp the sync timestamp into the template."""
-    content_md = to_md(_normalize_superscripts(doc_html, full_html), heading_style="ATX", sup_symbol="<sup>", sub_symbol="<sub>")
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(CONTENT_MD_PATH, "w", encoding="utf-8") as f:
-        f.write(content_md)
-
-    with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
-        template = BeautifulSoup(f.read(), "html.parser")
-
-    updated_el = template.find(id="last-updated")
-    if updated_el:
-        now = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
-        updated_el.string = f"Last synced: {now}"
-
-    return str(template)
+def doc_to_markdown(doc_html: str, full_html: str = "") -> str:
+    """Convert Google Doc HTML to Markdown with superscript support."""
+    return to_md(
+        _normalize_superscripts(doc_html, full_html),
+        heading_style="ATX",
+        sup_symbol="<sup>",
+        sub_symbol="<sub>",
+    )
 
 
 def main():
-    remote_time = get_remote_modified_time()
-    cached_time = read_cached_time()
+    if not GOOGLE_API_KEY:
+        print("WARNING: GOOGLE_API_KEY not set — skipping change detection, full build will run.")
 
-    if remote_time and remote_time == cached_time:
-        print(f"No changes detected (modifiedTime: {remote_time}). Skipping build.")
-        set_github_output("changed", "false")
-        return
-
-    doc_html, full_html = fetch_doc_content()
-    page_html = build_page(doc_html, full_html)
+    cached_times = read_cached_times()
+    remote_times = {}
+    any_changed = False
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        f.write(page_html)
 
-    if remote_time:
-        write_cached_time(remote_time)
+    for doc in DOCS:
+        doc_id = doc["doc_id"]
+        name = doc["name"]
+        url = f"https://docs.google.com/document/d/{doc_id}/pub"
 
-    set_github_output("changed", "true")
-    print(f"Built: {OUTPUT_PATH}")
+        remote_time = get_remote_modified_time(doc_id)
+        remote_times[doc_id] = remote_time
+
+        if remote_time and remote_time == cached_times.get(doc_id):
+            print(f"No changes detected: {name}. Skipping.")
+            continue
+
+        doc_html, full_html = fetch_doc_content(url)
+        content_md = doc_to_markdown(doc_html, full_html)
+
+        with open(doc["output_md"], "w", encoding="utf-8") as f:
+            f.write(content_md)
+        print(f"Built: {doc['output_md']}")
+        any_changed = True
+
+    new_cached = dict(cached_times)
+    for doc in DOCS:
+        rt = remote_times.get(doc["doc_id"])
+        if rt:
+            new_cached[doc["doc_id"]] = rt
+    write_cached_times(new_cached)
+
+    set_github_output("changed", "true" if any_changed else "false")
+    if not any_changed:
+        print("No changes detected across all docs. Skipping deploy.")
 
 
 if __name__ == "__main__":

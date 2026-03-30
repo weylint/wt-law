@@ -216,12 +216,12 @@
     HOW THIS WORKS (for the GitHub Actions approach)
     ============================================================
 
-    The JavaScript below fetches content.md on page load
+    The JavaScript below fetches constitution.md on page load
     (client-side fallback). This only works when the page is
     served — not opened as a local file.
 
     For your GitHub Pages setup, the GitHub Action fetches the
-    Google Doc, converts it to Markdown (content.md), and stamps
+    Google Doc, converts it to Markdown (constitution.md), and stamps
     the timestamp into the template at BUILD TIME.
   -->
   <script>
@@ -230,7 +230,7 @@
       const updatedEl = document.getElementById('last-updated');
 
       try {
-        const res = await fetch('content.md');
+        const res = await fetch('constitution.md');
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const text = await res.text();
         container.innerHTML = marked.parse(text);

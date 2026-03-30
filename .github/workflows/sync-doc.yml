@@ -46,11 +46,14 @@ jobs:
             echo "No cached state found, will do a full build."
           fi
 
-      - name: Fetch Google Doc and build page
+      - name: Fetch Google Docs and convert to Markdown
         id: build
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: python build.py
+        run: python3 build.py
+
+      - name: Copy static files to output
+        run: cp index.html output/index.html
 
       - name: Deploy to GitHub Pages
         if: steps.build.outputs.changed == 'true' || github.event_name == 'push'
