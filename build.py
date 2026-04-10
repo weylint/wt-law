@@ -81,6 +81,23 @@ def set_github_output(key: str, value: str) -> None:
             f.write(f"{key}={value}\n")
 
 
+def write_step_summary(built: list[str], skipped: list[str]) -> None:
+    summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not summary_file:
+        return
+    with open(summary_file, "a") as f:
+        if built:
+            f.write("### Updated\n")
+            for name in built:
+                f.write(f"- `{name}`\n")
+        if skipped:
+            f.write("### Unchanged (skipped)\n")
+            for name in skipped:
+                f.write(f"- `{name}`\n")
+        if not built:
+            f.write("No changes detected — deploy skipped.\n")
+
+
 def fetch_doc_content(url: str) -> tuple[str, str]:
     """Download a published Google Doc and extract the body content.
 
@@ -159,7 +176,8 @@ def main():
 
     cached_times = read_cached_times()
     remote_times = {}
-    any_changed = False
+    built: list[str] = []
+    skipped: list[str] = []
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -173,6 +191,7 @@ def main():
 
         if remote_time and remote_time == cached_times.get(doc_id):
             print(f"No changes detected: {name}. Skipping.")
+            skipped.append(name)
             continue
 
         doc_html, full_html = fetch_doc_content(url)
@@ -181,7 +200,7 @@ def main():
         with open(doc["output_md"], "w", encoding="utf-8") as f:
             f.write(content_md)
         print(f"Built: {doc['output_md']}")
-        any_changed = True
+        built.append(name)
 
     new_cached = dict(cached_times)
     for doc in DOCS:
@@ -190,7 +209,9 @@ def main():
             new_cached[doc["doc_id"]] = rt
     write_cached_times(new_cached)
 
+    any_changed = bool(built)
     set_github_output("changed", "true" if any_changed else "false")
+    write_step_summary(built, skipped)
     if not any_changed:
         print("No changes detected across all docs. Skipping deploy.")
 
