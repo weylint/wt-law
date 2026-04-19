@@ -2,7 +2,7 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfKGDu51igtLRSSbyfsp9A1xQwBejISb2GZ1lgQATsZIyF4Kx6wTyNAX3C1lcbnqA1IKiHRHu1e9RduPUACi7583jbm36pbdPRfuwZ-yC58gFQZpGsvCvk5WrFASSrYZJE=s2048?key=WPZfP-9LMrhjnz1B4qgxponR)
+![](https://docs.google.com/docs-images-rt/ABaEjg0o4zv8a0bZkmddH8cN5-sDDAGPvcewpnqtETOvyo2m1E3dUCMgW_CY0FuyNYkkhc13hTMlY2IVB3cmRWGZXlV5hJ3VRxYbi1_JjvK-W4rbkv82b2PQ_tuxvE97n36s-DjLorRoW25MtsvEC2A=s2048)
 
 # § 1 The Federation
 
@@ -86,7 +86,7 @@ of The Federation of White Tiger
 
 # § 9 Education System
 
-(1) <sup>1</sup>The federal education system consists of Lower Education provided from Day 1 through the Federal School, Higher Education provided from Day 8 through the Federal College and Greater Education provided from Day 15 through the Federal University.
+(1) <sup>1</sup>The federal education system consists of Lower Education provided from Day 1, Higher Education provided from Day 8 and Greater Education provided from Day 15 through the Federal University.
 
 (2) <sup>1</sup>Skill scrolls may also be distributed locally in towns by School Teachers in School House districts for Lower Education and in states by College Professors in State College districts for Higher Education. <sup>2</sup>School Teachers and College Professors are Federal Civil Servants appointed by and serving at the pleasure of their respective local government, requiring confirmation by the Minister of Education.
 
