@@ -42,16 +42,19 @@ DOCS = [
     {
         "name": "companies",
         "doc_id": "1dQIwh4xI19mK94R9n-rQwcuUl01ywOnENOkPD75S6GU",
+        "pub_url": "https://docs.google.com/document/u/2/d/e/2PACX-1vS07dmm_k1LykUewAnFFvuXbposwc35cXBb52FlArVEOWGyhRg9SkoO7lu1O2430w74UUXPoOkq7aaK/pub",
         "output_md": os.path.join(OUTPUT_DIR, "companies.md"),
     },
     {
         "name": "education-and-skill-scrolls",
         "doc_id": "1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U",
+        "pub_url": "https://docs.google.com/document/d/e/2PACX-1vT0Oqn4pqEA8fBw7UmJqauoKRdie05fIRo7v8BeEaaeuEemeVXLjyAdt2evq2yF0O9sZ1UgP6X5yg67/pub",
         "output_md": os.path.join(OUTPUT_DIR, "education-and-skill-scrolls.md"),
     },
     {
         "name": "government-guidelines",
         "doc_id": "1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8",
+        "pub_url": "https://docs.google.com/document/d/e/2PACX-1vT67BQesfyp0GA5EkKiEdyg4Akz75YrPQXO9fZ3hCJE5vAjkmLAm-UwmuVV0kZz9cDD6NZETW3kGvBm/pub",
         "output_md": os.path.join(OUTPUT_DIR, "government-guidelines.md"),
     },
     {
@@ -62,6 +65,7 @@ DOCS = [
     {
         "name": "overview",
         "doc_id": "10JmyCFhf9UvDlAhlxRBRc41b0d_tiehpyH7gZj7bb7M",
+        "pub_url": "https://docs.google.com/document/u/2/d/e/2PACX-1vTxXbHl4G2kNISHTtb4-ltRh0Ign7AjNhwn1-hEqgxJswUEvuSv5Bqo6L9hQrZcz1Lhr3TA-dLqHw8K/pub",
         "output_md": os.path.join(OUTPUT_DIR, "overview.md"),
     },
     {
@@ -225,7 +229,7 @@ def main():
     for doc in DOCS:
         doc_id = doc["doc_id"]
         name = doc["name"]
-        url = f"https://docs.google.com/document/d/{doc_id}/pub"
+        url = doc.get("pub_url") or f"https://docs.google.com/document/d/{doc_id}/pub"
 
         remote_time = get_remote_modified_time(doc_id)
         remote_times[doc_id] = remote_time
