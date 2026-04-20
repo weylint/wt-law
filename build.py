@@ -235,7 +235,13 @@ def main():
             skipped.append(name)
             continue
 
-        doc_html, full_html = fetch_doc_content(url)
+        try:
+            doc_html, full_html = fetch_doc_content(url)
+        except Exception as e:
+            print(f"WARNING: Could not fetch {name} ({e}), skipping.")
+            skipped.append(name)
+            continue
+
         content_md = doc_to_markdown(doc_html, full_html)
 
         with open(doc["output_md"], "w", encoding="utf-8") as f:
