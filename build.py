@@ -21,6 +21,7 @@ from markdownify import markdownify as to_md
 OUTPUT_DIR = "output"
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 STATE_PATH = os.path.join(OUTPUT_DIR, ".state")
+META_PATH = os.path.join(OUTPUT_DIR, "meta.json")
 
 DOCS = [
     {
@@ -107,6 +108,11 @@ def write_cached_times(times: dict) -> None:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(STATE_PATH, "w") as f:
         json.dump(times, f)
+
+
+def write_meta(meta: dict) -> None:
+    with open(META_PATH, "w") as f:
+        json.dump(meta, f, indent=2)
 
 
 def set_github_output(key: str, value: str) -> None:
@@ -238,11 +244,17 @@ def main():
         built.append(name)
 
     new_cached = dict(cached_times)
+    meta = {}
     for doc in DOCS:
         rt = remote_times.get(doc["doc_id"])
         if rt:
             new_cached[doc["doc_id"]] = rt
+            meta[doc["name"]] = rt
+        elif doc["doc_id"] in cached_times:
+            # no API key or transient failure — carry forward the cached time
+            meta[doc["name"]] = cached_times[doc["doc_id"]]
     write_cached_times(new_cached)
+    write_meta(meta)
 
     any_changed = bool(built)
     set_github_output("changed", "true" if any_changed else "false")
