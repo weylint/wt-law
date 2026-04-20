@@ -45,6 +45,13 @@ jobs:
             git show origin/gh-pages:constitution.md > output/constitution.md 2>/dev/null || true
             git show origin/gh-pages:federal-law.md > output/federal-law.md 2>/dev/null || true
             git show origin/gh-pages:server-rules.md > output/server-rules.md 2>/dev/null || true
+            git show origin/gh-pages:companies.md > output/companies.md 2>/dev/null || true
+            git show origin/gh-pages:education-and-skill-scrolls.md > output/education-and-skill-scrolls.md 2>/dev/null || true
+            git show origin/gh-pages:government-guidelines.md > output/government-guidelines.md 2>/dev/null || true
+            git show origin/gh-pages:labour-requirements.md > output/labour-requirements.md 2>/dev/null || true
+            git show origin/gh-pages:overview.md > output/overview.md 2>/dev/null || true
+            git show origin/gh-pages:towns-and-countries.md > output/towns-and-countries.md 2>/dev/null || true
+            git show origin/gh-pages:victory-conditions.md > output/victory-conditions.md 2>/dev/null || true
           else
             echo "No cached state found, will do a full build."
           fi

@@ -38,6 +38,41 @@ DOCS = [
         "doc_id": "1u45j3U72fPs5LrnOejunLFFEo8FpTxO3mREZnFemNM4",
         "output_md": os.path.join(OUTPUT_DIR, "server-rules.md"),
     },
+    {
+        "name": "companies",
+        "doc_id": "1dQIwh4xI19mK94R9n-rQwcuUl01ywOnENOkPD75S6GU",
+        "output_md": os.path.join(OUTPUT_DIR, "companies.md"),
+    },
+    {
+        "name": "education-and-skill-scrolls",
+        "doc_id": "1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U",
+        "output_md": os.path.join(OUTPUT_DIR, "education-and-skill-scrolls.md"),
+    },
+    {
+        "name": "government-guidelines",
+        "doc_id": "1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8",
+        "output_md": os.path.join(OUTPUT_DIR, "government-guidelines.md"),
+    },
+    {
+        "name": "labour-requirements",
+        "doc_id": "1mcSON_ha5GO2w9pPzsD6h0Rq4u6mcFOGtv0pAeNKgLw",
+        "output_md": os.path.join(OUTPUT_DIR, "labour-requirements.md"),
+    },
+    {
+        "name": "overview",
+        "doc_id": "10JmyCFhf9UvDlAhlxRBRc41b0d_tiehpyH7gZj7bb7M",
+        "output_md": os.path.join(OUTPUT_DIR, "overview.md"),
+    },
+    {
+        "name": "towns-and-countries",
+        "doc_id": "1ckQMkb3d0eglJZZ9lpx03LuBfp2fl-Y0uJv1sZdT3O8",
+        "output_md": os.path.join(OUTPUT_DIR, "towns-and-countries.md"),
+    },
+    {
+        "name": "victory-conditions",
+        "doc_id": "1wah3o-PVouxm-6-E8o6Dc0rK-9lbY8I3IFwmLOcq_Kw",
+        "output_md": os.path.join(OUTPUT_DIR, "victory-conditions.md"),
+    },
 ]
 # ───────────────────────────────────────────────────────────────
 
