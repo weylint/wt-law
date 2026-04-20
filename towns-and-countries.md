@@ -19,7 +19,7 @@ To place a settlement foundation, follow this list:
 1. Craft a Town Foundation or Country Foundation at a Settlement Crafting Table.
 2. Place the respective foundation on the central claim of where you want the town or country to emit its influence from. A Town Foundation must be in a basic T1, a Country Foundation in a basic T2 room.
 3. You will now be considered the first Mayor and your settlement will automatically be part of the Federation of White Tiger.
-4. Open a [ticket on Discord](https://www.google.com/url?q=https://discord.com/channels/254025510651297802/1343455490700607560&sa=D&source=editors&ust=1776691474436295&usg=AOvVaw3Twerz3RNdtC_94XhEN9NK) with the coordinates of your foundation deed for it to be added to the “Administrative Units” District Map and to receive a grant of 1.000 € (2.500 € for countries) paid into its treasury from the Federal Bank.
+4. Open a [ticket on Discord](https://www.google.com/url?q=https://discord.com/channels/254025510651297802/1343455490700607560&sa=D&source=editors&ust=1776708515278708&usg=AOvVaw184OMPUip6_kl9vDoMnWxU) with the coordinates of your foundation deed for it to be added to the “Administrative Units” District Map and to receive a grant of 1.000 € (2.500 € for countries) paid into its treasury from the Federal Bank.
 
 Once a Game Master informs you about that having been done, follow this list:
 

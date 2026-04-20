@@ -2,7 +2,7 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/ABaEjg0TEjOrN2U8Of_MSETg2EHQwXxAmW7FBMgddOJPIyOz_k2xtXG5vEA4Yo_gHggwwhBrmQlON1_t0N8Fx8NteufAOiFmylnOKPXEnI2NtaHxB9p7KQnw1SQZ9u7nLTMa30_HpKnlWJFEy6i-yDw=s2048)
+![](https://docs.google.com/docs-images-rt/ABaEjg17v1L9cpmOjfTHrEZtlLT0EAyALwthJQpQkzIx7ufG2whd6ZLZ9y66_pWXLZoMeTFcq6DXj6CBbg7yamipoGYWIkWYJhgH3xlz0PtTYYEDIzBAl14lXzznItAH_7UbB-ge_023_k887Eor8Io=s2048)
 
 # § 1 The Federation
 

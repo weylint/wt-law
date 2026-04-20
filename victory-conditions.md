@@ -20,7 +20,7 @@ Total components required: 80 Balanced Meals, 60 Precision Tools, 60 Enhanced Me
 
 ## Weekly Goals
 
-In an effort to spread out the victory requirements, weekly goals have been established and are laid out in the [[White Tiger] Victory Goal List](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1W4JLOZsCzMWtZfd4buRwmc0TKiwOqU4ST8jvJvMn1xE/&sa=D&source=editors&ust=1776691475488683&usg=AOvVaw3TYA2ur5TVwHCmtRamTb2V). The required tasks are outlined below as well as in the checklist, and these checkpoints should be made each week.
+In an effort to spread out the victory requirements, weekly goals have been established and are laid out in the [[White Tiger] Victory Goal List](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1W4JLOZsCzMWtZfd4buRwmc0TKiwOqU4ST8jvJvMn1xE/&sa=D&source=editors&ust=1776708516131927&usg=AOvVaw0NoGjHCg86_woHfWNfVUx0). The required tasks are outlined below as well as in the checklist, and these checkpoints should be made each week.
 
 Note: Weekly laser crafting goals represent the minimum required progress. Governments are expected to continue supporting the laser craft chain throughout the entire cycle. Completing the minimum does not end the Meteor Store responsibilities for the week; stores, buy orders, and production support should remain active so that later governments are not placed under disproportionate pressure and money actively circulates in the economy.  
 
@@ -72,7 +72,7 @@ Failure to complete required goals can result in strikes that carry negative con
 
 ## Special Victories
 
-Additionally, you have the option to strive for bonus rewards that affect the current cycle as well as next cycle rewards by completing goals or tasks aimed at additional victories. A list of goals or tasks can be found in the [[White Tiger] Victory Goal List](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1W4JLOZsCzMWtZfd4buRwmc0TKiwOqU4ST8jvJvMn1xE/&sa=D&source=editors&ust=1776691475498767&usg=AOvVaw3trhyjtBUbrCOz5_-XyW7m). You are not limited to these - if you have an idea for a build, event, task, goal, endeavor, quest, scenario, activity, etc - please submit a GM ticket for inclusion and point assignment.
+Additionally, you have the option to strive for bonus rewards that affect the current cycle as well as next cycle rewards by completing goals or tasks aimed at additional victories. A list of goals or tasks can be found in the [[White Tiger] Victory Goal List](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1W4JLOZsCzMWtZfd4buRwmc0TKiwOqU4ST8jvJvMn1xE/&sa=D&source=editors&ust=1776708516135641&usg=AOvVaw1BCVpgK5uPBfqraNn2tdtj). You are not limited to these - if you have an idea for a build, event, task, goal, endeavor, quest, scenario, activity, etc - please submit a GM ticket for inclusion and point assignment.
 
 Each task or goal attributes contribution points to a victory type. Once the server acquires enough points to cross a milestone, the reward for that milestone will be granted by the next restart.
 
