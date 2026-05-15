@@ -1,5 +1,7 @@
 Labour Requirements
 
+THESE REQUIREMENTS ARE CURRENTLY SUSPENDED
+
 # Nutrition Requirements
 
 You must have a certain amount of subtotal nutrition points to be able to add labour where that requires a specific profession, depending on how advanced it is.

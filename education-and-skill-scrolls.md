@@ -2,13 +2,15 @@
 
 The Minister of Education (MoE) is an appointed federal government position which is charged with purchasing research and developing the technical skills of the Federation's citizens. Skill Books are centrally crafted by the MoE at the Federal University, located in Unica, and skill scrolls are sold to the citizens. State Colleges and Town Schools can assist the MoE in selling some skill scrolls.
 
+A minimum number of skill scrolls must be crafted globally in order for the scroll to be sold to the public.
+
 Research generally follows a schedule, however depending on research availability some skills may be released later. Government policy could also add additional requirements to release skill scrolls to the public.
 
 Important Note: Skill Scrolls do NOT give claim papers.
 
 ## Research Schedule
 
-![](https://docs.google.com/docs-images-rt/ABaEjg2EF75M0q_-CT07cqpXIID1x1tM8OloMDhDFwpASAOg2RFYlRFh2o0PcIc_VUm0vbzGfMV1EbQOqaKCOakGNhOHTWo93vG9aojIuWtIH2reZVgtoHcGYrip7ai2H8KjgXNaMS7xw-IYQQbuIUYCiAVafm9quhhTeSFE9O5f=s2048)
+![](https://docs.google.com/docs-images-rt/ABaEjg3CpfUTxtS77E7I5RIsSjxTvpig40-qVw2sMT3M7z46X15D3hgRFFB1YJGQUkkwp-CsCkMDjdSNoIIKQLSBetwtq6A-HQdoh1ab9YJTV163-J77z5_7DgAms8BTTiARmXYH2UBheNuDVwzo82c7pifMl-sPeZg8naIXfgF9=s2048)
 
 ## Town Schools
 

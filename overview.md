@@ -22,7 +22,7 @@ If you have any questions or suggestions regarding these changes, you can send m
 
 An overview of the currencies commonly used on White Tiger:
 
-Euro - Primary trade currency, you must use the Euro to conduct trade, in repair bounties, in work parties, and contracts.
+Pound - Primary trade currency, you must use the Pound to conduct trade, in repair bounties, in work parties, and contracts.
 
 Donation Receipts - A special currency to allow governmental donations. Must be authorized by the Federal President and is not present in every cycle.
 
@@ -32,7 +32,7 @@ Stat (Tracking) - This is a tracking currency to track multiple stats used in e
 
 Credit (Tracking) - This is a tracking currency used to track how much credit you have earned. Credit is based on your time on the server as well as a portion of your income. This is part of the loan system explained more in depth below.
 
-Debt (Tracking) - This is a tracking currency used to track how much debt you have acquired. It is received when you trade in Credit (Tracking) for Euros and measures how much you owe.
+Debt (Tracking) - This is a tracking currency used to track how much debt you have acquired. It is received when you trade in Credit (Tracking) for Pounds and measures how much you owe.
 
 Personal Credits - Personal credits are not used for trade purposes on this server, however personal credits may be used for various tracking purposes.
 
@@ -42,9 +42,9 @@ Two Day Tax Projection - currency associated with the Income Tax law that is ro
 
 ### Loans
 
-There is a federal loan program to provide financial assistance when you might need it. There’s a currency exchange in Unica on the Admin Cave marked with a Federal Loan global marker. Utilize the currency exchange to turn in Credit (Tracking) for Euro. To pay back the loan, utilize the same currency exchange to turn in Debt (Tracking) for Credit (Tracking).
+There is a federal loan program to provide financial assistance when you might need it. There’s a currency exchange in Unica on the Admin Cave marked with a Federal Loan global marker. Utilize the currency exchange to turn in Credit (Tracking) for Pounds. To pay back the loan, utilize the same currency exchange to turn in Debt (Tracking) for Credit (Tracking).
 
-TIP: The Currency Exchange UI can be confusing. To take a loan - utilize the Credit & Euro option. To pay a loan - utilize the Debt & Credit Option.
+TIP: The Currency Exchange UI can be confusing. To take a loan - utilize the Credit & Pounds option. To pay a loan - utilize the Debt & Credit Option.
 
 Loan Details:
 
@@ -132,8 +132,18 @@ This page gives an overview of specific changes on White Tiger that are differen
 
 ### General
 
-* The federation is a starting government with currency (Euro). All trades must be in Euro. Other currencies exist but are used for other purposes, more information can be found in F1 Ecopedia section.
+* The federation is a starting government with currency (Pounds). All trades must be in Pounds. Other currencies exist but are used for other purposes, more information can be found in F1 Ecopedia section.
 * Endgame recipes (i.e. Lasers) are significantly harder than vanilla and intended to require an effort by every single player on this server.
+* Companies
+
+* Sharing property or assets requires the use of a company on this server. More information regarding companies can be found in its own documentation.
+
+* Dinner Party config settings
+
+* Can attend 2 dinner parties per day
+* Settlement and Tastiness factors are modified to be more neutral / forgiving
+* Formula adjusted to balance the increase in parties and bonus
+
 * Research is centralized by the Federal University.
 
 * Module recipes have been modified to work with the Education release schedule
@@ -161,20 +171,124 @@ This page gives an overview of specific changes on White Tiger that are differen
 
 ### Hunting
 
+* Animal HP adjustments for Snapping Turtle and Turkey
+* Adjusted and balanced carcass weights
+* New recipe: Skin Hare which produces fur pelt and shorn wool
+* New recipe: Skin Tiny Animal which produces leather hide
+* New recipe: Skin Tiny Fur Animal which produces fur pelt
+* Adjusted arrow weight from 100 to 30
 * Fishing limitations: Fish Traps / Crab Pots have minimum distances to prevent industrial level farms
 * Fishing limitations: Fishery has reduced storage visibility
 
+### Butchery
+
+* Adjustment of non-meat byproducts (leather, wool, fur)
+* New recipe: Butcher Elk (provides raw meat, leather hide, and fur pelt)
+
 ### Farming
 
+* Ethanol recipes use less corn or wheat
+* New Recipe: Bioplastic
 * Ethanol recipes are moved to farming from Cutting Edge Cooking
+* New Recipe: Processing Flax flowers into seeds and stems
+
+### Gathering
+
+* Harvesting Flax now gives Flax Flowers and a chance at seeds.
+* Gathering research paper basic uses 80 plant fiber instead of 20
+
+### Fertilizer
+
+* New Recipe: Compost Seeds (compost made from seeds)
 
 ### Campfire Cooking
 
-* Added new recipe: Porridge (new food item consumes seeds)
+* New Recipe: Porridge (new food item consumes seeds)
+* New Recipe: Campfire Elk (produces charred meat and tallow)
+
+### Cooking
+
+
+
+### Baking
+
+
+
+### Advanced Cooking
+
+* Balanced nutrition (uses vanilla values)
+* Reverted Boiled Rice Recipe [no longer uses sugar/oil]
+
+### Advanced Baking
+
+
+
+### 
+
+### Mining
+
+* New Recipes: Low Grade Ore (Uses rocks to convert to crushed ore and byproducts)
+* New Recipes: Sifted Ore (uses crushed rocks to convert to crushed ores and sand)
+* Mortared Stone recipes moved from Masonry
+* Mortar recipes from Masonry
+
+### 
+
+### Smelting
+
+* Iron bar calorie cost adjusted from 60 to 180
+
+### Advanced Smelting
+
+* Barrel calorie cost adjusted from 720 to 480
+* Steel bar calorie cost adjusted from 60 to 180
+
+### Masonry
+
+* Mortared Stone and Mortar recipes moved to mining
+
+### Tailoring
+
+* Doubled Wool Yarn output
+* Crushed sulfur added to Cellulose Fiber recipe
+
+### Blacksmith
+
+* Copper Wiring and Gold Wiring Recipes moved from Mechanics
+
+### Glassworking
+
+* Glass calorie cost adjusted from 30 to 45
+* Fiberglass calorie cost adjusted from 90 to 150
+* Lightbulb calorie cost adjusted from 60 to 90
+* Quicklime Glass calorie cost adjusted from 45 to 60
+
+### Mechanics
+
+* Copper Wiring and Gold Wiring Recipes moved to Blacksmith
+* Swapped Level 3 and Level 6 talents
+* Talent: Partial Quality (Lvl3) changed to craft resources cost reduction -10% per level (capped at -40%) for Mechanic Parts
+* Talent: Improved Assembly  (Lvl3) targets vehicle tags (mechanics), -10% per level (cap at -40%)
+* Talent: Shaping Up (Lvl6) craft resource cost increased from -20% to -10%
+
+### Industry
+
+* Added Radiator and Steel Axle to Parts Tag
+* Talent: Skilled labor (Lvl3) adds -10% resource cost per level for housing items and industrial generator (preserves vanilla effects)
+* Talent: Electrical Efficiency (lvl6) adds -10% resource cost and +15% craft speed for Electronic Machinist Table recipes (preserves -50% power reduction)
+
+### Electronics
+
+* Talent: Quality of Life (lvl6) adds craft resource cost reduction for Solar Generator and Wind Turbines in addition to vanilla effect and modified to multi-level -10% per level (cap at -40%)
+* Talent: Heavy Equipment (lvl6) increases the resource cost reduction for crafting tables from single level -15% to multi level -10% per level (cap at -40%)
 
 ### Oil Drilling
 
 * Oil yield depletion based on consumption
+
+### Paper Milling
+
+* Ethanol added as an ingredient in paper
 
 ### Cutting Edge Cooking
 
@@ -194,8 +308,6 @@ This page gives an overview of specific changes on White Tiger that are differen
 
 ### Server / Utility Commands
 
-!laserprogress - sends information about laser components that have been crafted compared to the total required
-
 /time now - shows the current server time. Useful for checking education schedule
 
 /unstuck - useful if you’re stuck to send you vertically to the nearest surface. Can sometimes work horizontally if near edges/corners.
@@ -213,8 +325,6 @@ This page gives an overview of specific changes on White Tiger that are differen
 ### Room Commands
 
 /rooms test - test for room condition issues and can update outdoor scoring
-
-/rooms diagnose - provides detailed diagnostic information why a room is failing.
 
 ### Vehicle Commands
 
