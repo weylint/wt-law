@@ -205,25 +205,82 @@ This page gives an overview of specific changes on White Tiger that are differen
 
 * New Recipe: Porridge (new food item consumes seeds)
 * New Recipe: Campfire Elk (produces charred meat and tallow)
+* Render Fat: reduced scrap meat from 10 to 7
+* Wild Stew: increased huckleberries from 2 to 4 and beet from 1 to 2
+* Talent: Roasted (lvl3): Unlocks campfire roast; -10% speed to all campfire recipes, -20% speed to campfire roasts and charred sausages
+* Talent: Using Scraps (lvl3): unlocks render fat, -10% speed on all campfire recipes; -10% speed to all fried vegetables
+* Talent: Side Dishes (lvl6): -7% per level cost and speed of salads (capped at -35%)
+* Talent: Stew Gourmand (lvl6) : : -5% per level cost and speed of stews (capped at -25%)
 
 ### Cooking
 
-
+* Nutrition rebalanced and raised
+* Mochi: reduced sugar from 2 to 1
+* Loaded Taro Fries: reduced sun cheese from 2 to 1
+* Phad Thai: reduced sugar from 2 to 1
+* Talent: Dual Dexterity (lvl3): -30% speed and -10% cost to all cooking recipes, -10% cost reduction to salads; unlocks exotic vegetable medley
+* Talent: More Pans (lvl3): -30% speed and -10% cost to all cooking recipes, -10% cost for Simmered meat, stocks and fish stock, unlocks Fish Stock
+* Talent: Something Fishy (lvl6): -5% per level for clam chowder and shark fillet soup (capped at -25%); -2% per level (-10% cap) and -5% per level craft speed (capped at -25%) for all cooking recipes
+* Talent: Fast Food (lvl6): -5% per level for Pupusas and Loaded Taro Fries (capped at -25%); -2% per level (-10% cap) and -5% per level craft speed (capped at -25%) for all cooking recipes
+* Talent: Take out (lvl6): -5% per level for Agouti Enchiladas, Banh Xeo, and Elk Taco (capped at -25%); -2% per level (-10% cap) and -5% per level craft speed (capped at -25%) for all cooking recipes
+* Talent: In a Bowl  (lvl6): -5% per level for Pineapple Friend Rice, Poke Bowl, Sweet Salad, and Crimson Salad (capped at -25%); -2% per level (-10% cap) and -5% per level craft speed (capped at -25%) for all cooking recipes
 
 ### Baking
 
-
+* Nutrition rebalanced and raised
+* Pastry Dough: Reduces fat from 2 to 1
+* Leavened Dough: Reduced flour from 4 to 3
+* Flatbread: reduced flour from 4 to 3
+* Fruit Muffin: reduces flour from 4 to 3
+* Huckleberry Fritter: Reduced Huckleberry Extract from 2 to 1
+* Roast Pumpkin: Reduced sugar from 2 to 1
+* Baked Roast: Increased raw roast from 1 to 2
+* Baked Meat: Increased raw meat from 2 to 3
+* Huckleberry Pie: reduced flour from 4 to 3
+* Meat Pie: reduced flour from 4 to 3
+* Worldly Donut: reduced oil from 2 to 1
+* Talent: Homegrown Baking (lvl3): -30% speed and -10% cost to all baking recipes, -10% cost reduction to baked vegetables; unlocks roast pumpkin
+* Talent: Meat Specialist (lvl3): -30% speed and -10% cost to all baking recipes, -10% cost for baked meat and baked roast, unlocks baked roast
+* Talent: Sweet Baking (lvl6): Removed pie penalty; -5% per level for pastries and pastry dough (capped at -25%); -2% per level (-10% cap) for all baking recipes
+* Talent: Pie / Filled Meals (lvl6): removed the pastry penalty; -5% per level for pies and leavened dough (capped at -25%); -2% per level (-10% cap) for all baking recipes
 
 ### Advanced Cooking
 
-* Balanced nutrition (uses vanilla values)
-* Reverted Boiled Rice Recipe [no longer uses sugar/oil]
+* Nutrition rebalanced and raised
+* Modified Culinary research paper modern from 10 bread to 10 bearclaws
+* Corn Fritters: reduced cornmeal from 6 to 5, fat from 4 to 3, increased calories from 500 to 1050
+* Fish n Chips: reduced taro fries from 4 to 2
+* Wild Mix: reduced huckleberry extract from 2 to 1
+* Infused Oil: reduced huckleberry extract from 2 to 1
+* Seared Meat: reduced infused oil from 2 to 1
+* Boiled Sausage: reduced meat stock from 4 to 2
+* Fried hare haunches: reduced flour from 8 to 5, oil from 4 to 3; increased prepared meat from 4 to 6; and increased output from 1 to 2
+* Elk Taco: reduced tortilla from 2 to 1
+* Sweet Salad: reduced simple syrup from 4 to 1
+* Crimson Salad: reduced infused oil from 2 to 1
+* Bison Chow Fun: Reduced bison carcass from 2 to 1, rice noodles from 4 to 1
+* Banh Xeo: reduced prime cut from 4 to 2 and oil from 2 to 1
+* Agouti Enchildas: reduced sun cheese from 4 to 2 and increased prime cut from 2 to 3
+* Pineapple Friend Rice: reduced boiled rice from 5 to 2 and added 1 oil
+* Bear SUPREME: reduced prime cut from 4 to 2, infused oil from 2 to 1
+* Kelpy Crab Roll: increased boiled rice from 2 to 4, crab carcass from 1 to 2 and reduced output from 2 to 1
+* Spiky Roll: increased boiled rice from 2 to 4, urchin from 2 to 3, added 2 kelp, and reduced output from 2 to 1
+* Hosomaki: reduced boiled rice from 5 to 4, raw fish from 10 to 8, and kelp from 4 to 2
+* Seeded camas roll: increased boiled rice from 2 to 4, increased calories to 1000
+* Boiled Rice: reduced rice from 10 to 8
 
 ### Advanced Baking
 
-
-
-### 
+* Nutrition rebalanced and raised
+* New Recipe: Culinary Research Paper Modern (Baking) that uses 10 corn fritters, 5 fruit tarts, 5 pirozhoks, 4 ink and 20 paper
+* Bearclaw: Reduced sugar from 4 to 3 and crafting level from 2 to 1
+* Elk Wellington: reduced prime cut from 4 to 3
+* Stuffed Turkey: Removed prime cut; increased bread from 1 to 2, vegetable medley from 1 to 2 and added 1 turkey carcass
+* Pizzas (all): reduced leavened dough 2 to 1
+* Tasty Tropical Pizza: reduced raw bacon from 2 to 1 and suncheese from 4 to 2
+* Macarons: reduced sugar from 5 to 3
+* Fruit tart: raised level from 1 to 3
+* Pirozhok: raised level from 1 to 3
 
 ### Mining
 
@@ -231,8 +288,6 @@ This page gives an overview of specific changes on White Tiger that are differen
 * New Recipes: Sifted Ore (uses crushed rocks to convert to crushed ores and sand)
 * Mortared Stone recipes moved from Masonry
 * Mortar recipes from Masonry
-
-### 
 
 ### Smelting
 
@@ -270,6 +325,7 @@ This page gives an overview of specific changes on White Tiger that are differen
 * Talent: Partial Quality (Lvl3) changed to craft resources cost reduction -10% per level (capped at -40%) for Mechanic Parts
 * Talent: Improved Assembly  (Lvl3) targets vehicle tags (mechanics), -10% per level (cap at -40%)
 * Talent: Shaping Up (Lvl6) craft resource cost increased from -20% to -10%
+* Added Parts tag to Valve
 
 ### Industry
 
