@@ -20,7 +20,7 @@ is punishable with a fine of up to 5 daily rates, in especially serious cases wi
 
 ## § 4 Environmental Damage [Criminal, Public]
 
-(1) <sup>1</sup>Failing to contain environmentally damaging substances in a way that reasonably protects the environment from harm entails an administrative fine of up to 1.000 €.
+(1) <sup>1</sup>Failing to contain environmentally damaging substances in a way that reasonably protects the environment from harm entails an administrative fine of up to 1.000 £.
 
 (2) <sup>1</sup>Disposing environmentally damaging substances outside of a legally owned and persistently claimed property is punishable with a fine of up to 5 daily rates.
 
@@ -52,15 +52,15 @@ is punishable with a fine of up to 5 daily rates, in especially serious cases wi
 
 (2) If a rent calculation does not reasonably take into account the housing value of the residence, the landlord is responsible to ensure that it does not for a significant duration drop notably below the value it had at the time the rental agreement was concluded.
 
-(3) Violating this law entails an administrative fine of up to 1.000 €.
+(3) Violating this law entails an administrative fine of up to 1.000 £.
 
 ## § 2 Minimum Pay [Private, Public]
 
-(1) Providing labour in a work party must be compensated per 1000 labour with at least 30 € until Day 7, 40 € from Day 8 to Day 14 and 50 € as of Day 15.
+(1) Providing labour in a work party must be compensated per 1000 labour with at least 30 £ until Day 7, 40 £ from Day 8 to Day 14 and 50 £ as of Day 15.
 
-(2) Providing work time in contracts must be compensated with at least 100 € per hour.
+(2) Providing work time in contracts must be compensated with at least 100 £ per hour.
 
-(3) Violating this law entails an administrative fine of up to 1.000 €.
+(3) Violating this law entails an administrative fine of up to 1.000 £.
 
 ## § 3 Unfair Competition [Private]
 
@@ -80,7 +80,7 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 
 ## § 1 Construction [Public]
 
-<sup>1</sup>Buildings must be constructed and objects placed in a physically realistic manner comparable with their real counterparts once Day 4 starts. <sup>2</sup>Violating this law clause entails an administrative fine of up to 500 €. <sup>3</sup>The Federation may assume enforcement of this law instead of lower authorities.
+<sup>1</sup>Buildings must be constructed and objects placed in a physically realistic manner comparable with their real counterparts once Day 4 starts. <sup>2</sup>Violating this law clause entails an administrative fine of up to 500 £. <sup>3</sup>The Federation may assume enforcement of this law instead of lower authorities.
 
 ## 
 
@@ -94,7 +94,7 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 
 (1) <sup>1</sup>Only claimed land is generally considered to be protected property of its owner. <sup>2</sup>Unclaimed land is public and can be claimed and / or used by everyone according to applicable law with no regard to something already existing on that land, except for
 
-1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1776708510214427&usg=AOvVaw0y77keWLd5RRfEDw2zYqf6) or law, which is owned by the managing local authority stated, even if not claimed or claimed by a non-governmental entity.
+1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1778940094409082&usg=AOvVaw2PhcRX42c_-dI_1ManwAbu) or law, which is owned by the managing local authority stated, even if not claimed or claimed by a non-governmental entity.
 2. land that must reasonably be assumed to be part of a directly adjacent claimed property and is likely only unclaimed due to an oversight of that property's owner.
 
 (2) <sup>1</sup>Property can be claimed anywhere it is not prohibited by law as long as the act of claiming a property doesn't lead to another entity’s property being blocked from reasonable expansion on all four sides - natural borders like rivers counting as blockers. <sup>2</sup>Blocking another entity's expansion constitutes a criminal offence pursuant to I. § 1, intentionally doing so being an especially serious case.
@@ -115,4 +115,4 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 
 (2) <sup>1</sup>Parking is only allowed on dedicated parking lots and mooring areas as well as private property permitting so. <sup>2</sup>Traffic infrastructure may only be used for short-term parking intended solely for loading and unloading in the least obstructive way possible.
 
-(3) <sup>1</sup>Abandoning a vehicle outside of one’s own private property or causing notable obstruction of infrastructure with a vehicle that could have reasonably been avoided or that is persistent for more than 24 hours entails an administrative fine of up to 250 € and the impounding of the vehicle until the fine has been paid and the vehicle collected.
+(3) <sup>1</sup>Abandoning a vehicle outside of one’s own private property or causing notable obstruction of infrastructure with a vehicle that could have reasonably been avoided or that is persistent for more than 24 hours entails an administrative fine of up to 250 £ and the impounding of the vehicle until the fine has been paid and the vehicle collected.
