@@ -19,7 +19,7 @@ To place a settlement foundation, follow this list:
 1. Craft a Town Foundation or Country Foundation at a Settlement Crafting Table.
 2. Place the respective foundation on the central claim of where you want the town or country to emit its influence from. A Town Foundation must be in a basic T1, a Country Foundation in a basic T2 room.
 3. You will now be considered the first Mayor and your settlement will automatically be part of the Federation of White Tiger.
-4. Open a [ticket on Discord](https://www.google.com/url?q=https://discord.com/channels/254025510651297802/1343455490700607560&sa=D&source=editors&ust=1779540898222744&usg=AOvVaw0kxzNx3SHvlRmhdb3s7JDl) with the coordinates of your foundation deed for it to be added to the “Administrative Units” District Map and to receive a grant of 1.000 € (2.500 € for countries) paid into its treasury from the Federal Bank.
+4. Open a [ticket on Discord](https://www.google.com/url?q=https://discord.com/channels/254025510651297802/1343455490700607560&sa=D&source=editors&ust=1779545062258715&usg=AOvVaw3wJ8C_dGc0UofN4VHm_m2_) with the coordinates of your foundation deed for it to be added to the “Administrative Units” District Map and to receive a grant of 1.000 € (2.500 € for countries) paid into its treasury from the Federal Bank.
 
 Once a Game Master informs you about that having been done, follow this list:
 
@@ -50,7 +50,7 @@ Additionally, due to the idea of settlements on this server being administrative
 
 The server concept intends that, in the optimal case, every location in the world is covered by the influence of both a town and a country additional to the Federation. Settlements are hence encouraged to annex homesteads that are not yet members of a settlement, especially when the settlement not only borders but surrounds a homestead - this ensures that settlement territory is coherent and the homestead can be expanded.
 
-Please be careful when annexing, as game mechanics may allow you to also annex homesteads that already are members of a settlement - a court ruling has however decided that annexation in cases where a settlement would lose jurisdiction requires consent of both the homestead’s owner and all settlements potentially losing jurisdiction.
+Please be careful when annexing, as game mechanics may allow you to also annex homesteads that already are members of a settlement - a court ruling has however decided that annexation in cases where settlements would lose jurisdiction over the homestead requires consent of both the homestead’s owner and affected settlements.
 
 Consequently, countries may also freely annex towns - though talking with the town to be annexed beforehands is always a good idea. Please note that annexing a town doesn’t make them a “vassal”, it still enjoys all rights the constitution grants to it.
 
