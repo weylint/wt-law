@@ -2,7 +2,7 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/ABaEjg2BMD__xGmYr4Hi28GWMdJ356bwe5OdFDrmkDjJ-q58j5H0LZzNdiYmV4rgRhdzuI4VenA4R3I3RA09zY6UhuHZuWl67W4PmpKahkj4PnPn_Td6DqfbtmOiuFn4OPVPhw-HsqAONlvRLXBFrSQ=s2048)
+![](https://docs.google.com/docs-images-rt/ABaEjg3wF-P-Zaf89J3U69Yw_NGzCQ2e7AWjKkgkFHjw8LpfQcTxynZgPgPqslXewZHjiRUyOht5NGkIiFjHlHZlYpg0YyxjV0JczlnRdZ4LJsTvBZjGqYPj4pRvzQhAwzHBD3A1rvwI_CLXyrwanGE=s2048)
 
 # § 1 The Federation
 
@@ -58,7 +58,7 @@ of The Federation of White Tiger
 
 (2) ¹The Prime Minister is the head of government, determines the guidelines of government policy and has the authority to issue government bonds at his own discretion. <sup>2</sup>If the office becomes vacant, the first willing, incumbent Minister in order of department creation becomes Prime Minister for the remainder of the legislative period.
 
-(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1779385000925820&usg=AOvVaw3j6oCB7-qeNrNR6jSmwfYl) by crafting “Skill Books” and for providing education of all levels by crafting "Skill Scrolls" and ensuring their equitable distribution by the Federal University and the States and Towns. <sup>2</sup>The education system should be managed economically, but it is entitled to receive funding from Parliament as necessary for smooth operations.
+(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1779784588337431&usg=AOvVaw2c41DZdMkA6pGuYGSjaMur) by crafting “Skill Books” and for providing education of all levels by crafting "Skill Scrolls" and ensuring their equitable distribution by the Federal University and the States and Towns. <sup>2</sup>The education system should be managed economically, but it is entitled to receive funding from Parliament as necessary for smooth operations.
 
 (4) <sup>1</sup>The Minister of Infrastructure oversees and supports the development of the global electricity network, the Federal Highways and the Waterways, including public ports. <sup>2</sup>He advises the house on related budget plans and construction programs, determines the priority of construction projects and works with all local authorities to ensure their obligations in regard to local infrastructure are fulfilled and supported where necessary.
 
@@ -80,4 +80,6 @@ of The Federation of White Tiger
 
 (3) <sup>1</sup>Justice is administered according to procedures resembling an inquisitorial, civic law legal system. <sup>2</sup>The Judiciary may order any suitable and proportionate measure necessary to redress ascertained injustice provided that applied law does not provide an exhaustive list of legal consequences or requires specific ones. <sup>3</sup>In criminal cases they may impose fines measured in daily rates multiplicated by half of the applicable average daily income, the temporary or permanent forfeiture of rights and temporary or permanent imprisonment depending on which punishment the violated law specifies and with all these legal consequences except permanent imprisonment being issuable in a suspended form and intended to regularly be issued in such form for a first-time offence. <sup>4</sup>For minor offences they may issue a warning instead of a penalty or convert a fine to community service of one hour per incurred daily rate if the convict requests that. <sup>5</sup>Injunctions are reserved for the judiciary and may not be used by anyone not part of it.
 
-# § 9 Special Regulations(1) <sup>1</sup>Deviating from §2 (4) taxes on income may have brackets with a taxation exceeding 50% of the taxable income, as long as those brackets only target players with an income value that compared to the income value of most other taxed entities is a significant outlier. <sup>2</sup>Taxation resulting from documented components of a tax on income that serve the purpose of altering the taxation based on vertical integration does not count against the limitation.
+# § 9 Special Regulations
+
+# (1) <sup>1</sup>Deviating from §2 (4) taxes on income may have brackets with a taxation exceeding 50% of the taxable income, as long as those brackets only target players with an income value that compared to the income value of most other taxed entities is a significant outlier. <sup>2</sup>Taxation resulting from documented components of a tax on income that serve the purpose of altering the taxation based on vertical integration does not count against the limitation.

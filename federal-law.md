@@ -94,7 +94,7 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 
 (1) <sup>1</sup>Only claimed land is generally considered to be protected property of its owner. <sup>2</sup>Unclaimed land is public and can be claimed and / or used by everyone according to applicable law with no regard to something already existing on that land, except for
 
-1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1779670372038862&usg=AOvVaw3tMCkj3XCOS0Yw13VJ_qpv) or law, which is owned by the managing local authority stated, even if not claimed or claimed by a non-governmental entity.
+1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1779784589039092&usg=AOvVaw3Ww4-WvrlXtRDKzJg-Qpwu) or law, which is owned by the managing local authority stated, even if not claimed or claimed by a non-governmental entity.
 2. land that must reasonably be assumed to be part of a directly adjacent claimed property and is likely only unclaimed due to an oversight of that property's owner.
 
 (2) <sup>1</sup>Property can be claimed anywhere it is not prohibited by law as long as the act of claiming a property doesn't lead to another entity’s property being blocked from reasonable expansion on all four sides - natural borders like rivers counting as blockers. <sup>2</sup>Blocking another entity's expansion constitutes a criminal offence pursuant to I. § 1, intentionally doing so being an especially serious case.
@@ -105,7 +105,7 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 2. expropriating real estate whose owner was last present at least three days ago and did not progress further than placing a starter tent and / or building a very basic hut that can reasonably be assumed to have been built during the tutorial.
 3. expropriating real estate that is requested to be procured to a realistically fulfillable new use based on its location by any private entity and whose owner is a member of the demographic “Abandoned” but not a member of the title “Vacation” and which does not contain buildings that must reasonably be considered worth preserving due to aesthetics, development or similar reasons.
 4. expropriating real estate that is to be procured to a new use serving the public good by a public entity - requiring compensation of its owner with the value of the affected land claims and all costs caused by a move of the full real estate as it is.
-5. confiscating real estate that is in violation of state or town law based on § 3 (4) S. 3 of the constitution after a warning with a respite of at least 72 hours to become compliant was given, the respite has passed without the violation having been addressed and all other available measures within reason were exhausted.
+5. confiscating real estate that is in violation of state or town law based on § 3 (2) S. 3 of the constitution after a warning with a respite of at least 72 hours to become compliant was given, the respite has passed without the violation having been addressed and all other available measures within reason were exhausted.
 
 ## 
 
