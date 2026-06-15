@@ -92,14 +92,13 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 
 ## § 3 Property [Public]
 
-(1) <sup>1</sup>Only claimed land is generally considered to be protected property of its owner. <sup>2</sup>Unclaimed land is public and can be claimed and / or used by everyone according to applicable law with no regard to something already existing on that land, except for
+(1) <sup>1</sup>Only claimed land is generally recognized as protected property of its owner. <sup>2</sup>Unclaimed land and everything located on it is unowned and may be freely claimed and / or used by everyone unless prevented by automatically enforced legislation, except for
 
-1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1780224187324874&usg=AOvVaw2TsntUvt3_wdQX4ZLXzipI) or law, which is owned by the managing local authority stated, even if not claimed or claimed by a non-governmental entity.
-2. land that must reasonably be assumed to be part of a directly adjacent claimed property and is likely only unclaimed due to an oversight of that property's owner.
+1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1781549912920614&usg=AOvVaw1ky-dsqh96UWDx8AGj6h7Q) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
+2. land that must reasonably be assumed to be part of a claimed property directly adjacent and is likely only unclaimed due to an oversight of that property's owner.
+3. land that if it was claimed would block already claimed land from reasonable expansion in all four directions - such land may not be claimed, but still used.
 
-(2) <sup>1</sup>Property can be claimed anywhere it is not prohibited by law as long as the act of claiming a property doesn't lead to another entity’s property being blocked from reasonable expansion on all four sides - natural borders like rivers counting as blockers. <sup>2</sup>Blocking another entity's expansion constitutes a criminal offence pursuant to I. § 1, intentionally doing so being an especially serious case.
-
-(3) <sup>1</sup>Ownership rights may be affected compulsorily only by a competent authority to either enforce a court order or by issuance of an administrative act for the purpose of
+(2) <sup>1</sup>Ownership rights may be affected compulsorily only by a competent authority to either enforce a court order or by issuance of an administrative act for the purpose of
 
 1. distraining property or bank balances due to a loan default or an unpaid fine - equal in value to the loan or fine in question and only on request of the creditor.
 2. expropriating real estate whose owner was last present at least three days ago and did not progress further than placing a starter tent and / or building a very basic hut that can reasonably be assumed to have been built during the tutorial.

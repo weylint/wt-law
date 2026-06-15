@@ -2,21 +2,19 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/ABaEjg3wF-P-Zaf89J3U69Yw_NGzCQ2e7AWjKkgkFHjw8LpfQcTxynZgPgPqslXewZHjiRUyOht5NGkIiFjHlHZlYpg0YyxjV0JczlnRdZ4LJsTvBZjGqYPj4pRvzQhAwzHBD3A1rvwI_CLXyrwanGE=s2048)
+![](https://docs.google.com/docs-images-rt/APuouOeA2p1Aj8j3AHpVaRcsUCQp3utC9fZpUKabeIlz7hnLAxFxNK_A-dNcXEameQ5ry1iw1ILjRz5S2hnNQIqKNhcSdi7h6gmPIgh973-JjfYtWyZSUVVmo2ggbXew6spj159jfy4hJAE2KP-sJk10bDQ=s2048)
 
 # § 1 The Federation
 
-(1) <sup>1</sup>The Federation of White Tiger is a constitutional, federal monarchy composed of states and towns, which can both be founded freely by a sufficient number of citizens. <sup>2</sup>The Federation and its states and towns are administrative units in descending hierarchical order. <sup>3</sup>Towns may become members of states by elective accession or mandatory annexation. <sup>4</sup>The Federation’s sole legal tender is the currency “Pound”.
+(1) <sup>1</sup>The Federation of White Tiger is a constitutional, federal monarchy composed of states and towns, which can both be founded freely by a sufficient number of citizens. <sup>2</sup>The Federation and its states and towns are administrative units in descending hierarchical order. <sup>3</sup>Towns may become members of states by elective accession or mandatory annexation. <sup>4</sup>The Federation’s sole legal tender is the currency “Pound”. Test
 
-(2) <sup>1</sup>The Federation’s national objectives are societal and technological advancement; the upholding of its constitutional, democratic and social values; the preservation of nature and the protection of the planet and all its inhabitants from natural disasters.
+(2) <sup>1</sup>The Federation’s national objectives are cultural and technological advancement; the upholding of its constitutional, democratic and social values; the preservation of nature and the protection of the planet and all its inhabitants from natural disasters.
 
 (3) <sup>1</sup>The elections for all federal public offices shall be held on Days 1, 8, 15, 22 and 29. <sup>2</sup>Retired officials continue to serve in acting capacity until their successor takes office.
 
 # § 2 Basic Rights
 
-(1) <sup>1</sup>All citizens of the federation are equal before the law. <sup>2</sup>They enjoy freedom of faith, conscience and ideological confession as well as freedom of movement and residence. <sup>3</sup>They have the right to - in the boundaries of law - assemble peacefully, freely choose their occupation, freely express their opinion and form societies and other associations.
-
-<sup>4</sup>They also have the right to file and participate in binding referendums and court cases.
+(1) <sup>1</sup>All citizens of the federation are equal before the law. <sup>2</sup>They enjoy freedom of art; freedom of faith, conscience and ideological confession as well as freedom of movement and residence. <sup>3</sup>They have the right to assemble peacefully; freely choose their occupation; freely express their opinion and form societies and other associations. <sup>4</sup>They are guaranteed access to the federal judiciary and local and federal referendums.
 
 (2) <sup>1</sup>Minorities and ethical playstyles may not be discriminated against, legislation that would disproportionately affect them must provide for appropriate hardship provisions.
 
@@ -58,7 +56,7 @@ of The Federation of White Tiger
 
 (2) ¹The Prime Minister is the head of government, determines the guidelines of government policy and has the authority to issue government bonds at his own discretion. <sup>2</sup>If the office becomes vacant, the first willing, incumbent Minister in order of department creation becomes Prime Minister for the remainder of the legislative period.
 
-(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1779784588337431&usg=AOvVaw2c41DZdMkA6pGuYGSjaMur) by crafting “Skill Books” and for providing education of all levels by crafting "Skill Scrolls" and ensuring their equitable distribution by the Federal University and the States and Towns. <sup>2</sup>The education system should be managed economically, but it is entitled to receive funding from Parliament as necessary for smooth operations.
+(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1781549912190965&usg=AOvVaw22XcdOh1ju7eaXqkt6D2e8) by crafting “Skill Books” and for providing education of all levels by crafting "Skill Scrolls" and ensuring their equitable distribution by the Federal University and the States and Towns. <sup>2</sup>The education system should be managed economically, but it is entitled to receive funding from Parliament as necessary for smooth operations.
 
 (4) <sup>1</sup>The Minister of Infrastructure oversees and supports the development of the global electricity network, the Federal Highways and the Waterways, including public ports. <sup>2</sup>He advises the house on related budget plans and construction programs, determines the priority of construction projects and works with all local authorities to ensure their obligations in regard to local infrastructure are fulfilled and supported where necessary.
 
