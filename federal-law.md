@@ -66,13 +66,14 @@ is punishable with a fine of up to 5 daily rates, in especially serious cases wi
 
 <sup>1</sup>Making use of unfair trading practices leading to significant economic advantages, except for when doing so as a government official while executing reasonable government policy or for purposes that do not compete with the free market, by
 
-1. colluding price-fixing agreements or artificially controlling supply or demand;
+1. manipulating the
 2. refraining from conducting price competition or hindering competitors to do so;
 3. setting prices below incurred costs or impossible to compete with by citizens that don’t vertically integrate based on their constitutional freedom of profession;
-4. setting prices offending common decency due to being unaffordable for an unusual amount of citizens, despite a significantly lower price retaining a fair profit margin could be set instead, based on a reasonable cost-based calculation;
-5. limiting store access to a specific audience or refusing to on request offer goods and services that were priorly made available to others, at reasonable conditions;
-6. offering discounts or asking for surcharges without reasonable business grounds or not doing the same to someone else despite similar business grounds apply;
-7. violating the principle of “first come, first serve” applying to goods in evident global shortage by fulfilling buy orders for or reserving them to specific citizens;
+4. setting prices offending common decency due to being unaffordable for an unusual amount of citizens, despite a significantly lower price retaining a fair profit margin based on a reasonable cost-based calculation could be set instead;
+5. offering someone special conditions that aren’t based solely on economic considerations or not offering the same conditions to someone despite the same considerations apply;
+6. limiting store access without publishing the access requirements directly next to the store or not granting someone access to such store as soon as possible despite the access requirements have been met;
+7. refusing to on request offer goods and services that were priorly made available to others, at reasonable conditions;
+8. violating the principle of “first come, first serve” applying to goods in evident global shortage by fulfilling buy orders for or reserving them to specific citizens;
 
 is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-action, file for an injunction and compensation when they can credibly show a violation of the law to be present. <sup>3</sup>Claimed compensation must be made plausible and may not exceed the actual damage caused.
 
@@ -81,8 +82,6 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 ## § 1 Construction [Public]
 
 <sup>1</sup>Buildings must be constructed and objects placed in a physically realistic manner comparable with their real counterparts once Day 4 starts. <sup>2</sup>Violating this law clause entails an administrative fine of up to 500 £. <sup>3</sup>The Federation may assume enforcement of this law instead of lower authorities.
-
-## 
 
 ## § 2 Power [Public]
 
@@ -94,7 +93,7 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 
 (1) <sup>1</sup>Only claimed land is generally recognized as protected property of its owner. <sup>2</sup>Unclaimed land and everything located on it is unowned and may be freely claimed and / or used by everyone unless prevented by automatically enforced legislation, except for
 
-1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1781549912920614&usg=AOvVaw1ky-dsqh96UWDx8AGj6h7Q) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
+1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1781617561394519&usg=AOvVaw3dj8Xm1F2iWlcIpnrESVT-) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
 2. land that must reasonably be assumed to be part of a claimed property directly adjacent and is likely only unclaimed due to an oversight of that property's owner.
 3. land that if it was claimed would block already claimed land from reasonable expansion in all four directions - such land may not be claimed, but still used.
 
@@ -105,8 +104,6 @@ is prohibited. <sup>2</sup>Competitors and consumers may, including as a class-a
 3. expropriating real estate that is requested to be procured to a realistically fulfillable new use based on its location by any private entity and whose owner is a member of the demographic “Abandoned” but not a member of the title “Vacation” and which does not contain buildings that must reasonably be considered worth preserving due to aesthetics, development or similar reasons.
 4. expropriating real estate that is to be procured to a new use serving the public good by a public entity - requiring compensation of its owner with the value of the affected land claims and all costs caused by a move of the full real estate as it is.
 5. confiscating real estate that is in violation of state or town law based on § 3 (2) S. 3 of the constitution after a warning with a respite of at least 72 hours to become compliant was given, the respite has passed without the violation having been addressed and all other available measures within reason were exhausted.
-
-## 
 
 ## § 4 Traffic [Public]
 
