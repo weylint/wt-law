@@ -71,11 +71,11 @@ is punishable with a fine of up to 5 daily rates, in especially serious cases wi
 3. setting prices offending common decency due to being unaffordable for an unusual amount of citizens even though a significantly lower price retaining a fair profit margin based on a reasonable cost-based calculation could be set instead;
 4. manipulating supply or demand of a good or service through artificial action or inaction leading to a significant change in its availability or pricing on the market;
 5. offering special conditions that aren’t based solely on economic considerations or not offering such conditions to someone when similar considerations apply;
-6. limiting store access without being able to grant access within 24 hours and publishing the access requirements next to the store or not granting access at the earliest possibility after a request when the access requirements were met;
-7. refusing, upon request, to offer goods or services at individual, but reasonable conditions when those were priorly made available to someone at any conditions;
+6. limiting store access without being able to grant access within 24 hours and publishing the access requirements next to the store or not granting requested access at the earliest possibility if and for as long as those requirements are met;
+7. refusing, upon request, to offer goods or services at fair conditions when those were recently provided to someone else, unless doing so would be unreasonable;
 8. violating the principle of “first come, first serve” applying to goods in evident global shortage by fulfilling buy orders for or reserving them to specific citizens;
 
-is prohibited. <sup>2</sup>Affected competitors and consumers may, including as a class-action, file for remedy in the form of injunctions and compensation. <sup>3</sup>A case is only admissible when the plaintiff can credibly show a violation of the law to be likely. <sup>4</sup>Information that isn’t credibly disputed by the defendant is considered applicable. <sup>5</sup>Claimed compensation must be made plausible and may not exceed the actual damage caused.
+is prohibited. <sup>2</sup>Affected competitors and consumers may file for compensation and injunctive relief, including as a class action.  <sup>3</sup>Such case is only admissible if the plaintiff can credibly show that a violation of the law is likely. <sup>4</sup>Claims made by the plaintiff in an admitted case are assumed true unless substantially disputed by the defendant. <sup>5</sup>Claimed compensation must be plausible and not exceed the actual damages incurred.
 
 # III. PUBLIC LAW
 
@@ -93,7 +93,7 @@ is prohibited. <sup>2</sup>Affected competitors and consumers may, including as
 
 (1) <sup>1</sup>Only claimed land is generally recognized as protected property of its owner. <sup>2</sup>Unclaimed land and everything located on it is unowned and may be freely claimed and / or used by everyone unless prevented by automatically enforced legislation, except for
 
-1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1781636154747686&usg=AOvVaw3-5GM2m570p3fZjGxQAc_U) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
+1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1781764149971030&usg=AOvVaw23mNM21q5flbRosiZniSZ_) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
 2. land that must reasonably be assumed to be part of a claimed property directly adjacent and is likely only unclaimed due to an oversight of that property's owner.
 3. land that if it was claimed would block already claimed land from reasonable expansion in all four directions - such land may not be claimed, but still used.
 
