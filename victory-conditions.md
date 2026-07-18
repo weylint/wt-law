@@ -20,7 +20,7 @@ Total components required: 80 Balanced Meals, 60 Precision Tools, 60 Enhanced Me
 
 ## Weekly Goals
 
-In an effort to spread out the victory requirements, weekly goals have been established and are laid out in the [[White Tiger] Victory Goal List](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1W4JLOZsCzMWtZfd4buRwmc0TKiwOqU4ST8jvJvMn1xE/&sa=D&source=editors&ust=1784378723644238&usg=AOvVaw216PhsMuEUW_pO0w3V0Cv_). The required tasks are outlined below as well as in the checklist, and these checkpoints should be made each week.
+In an effort to spread out the victory requirements, weekly goals have been established and are laid out in the [[White Tiger] Victory Goal List](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1W4JLOZsCzMWtZfd4buRwmc0TKiwOqU4ST8jvJvMn1xE/&sa=D&source=editors&ust=1784382865038775&usg=AOvVaw25zDLthwZQYB5VVCm9iob0). The required tasks are outlined below as well as in the checklist, and these checkpoints should be made each week.
 
 Note: Weekly laser crafting goals represent the minimum required progress. Governments are expected to continue supporting the laser craft chain throughout the entire cycle. Completing the minimum does not end the Meteor Store responsibilities for the week; stores, buy orders, and production support should remain active so that later governments are not placed under disproportionate pressure and money actively circulates in the economy.  
 
@@ -72,7 +72,7 @@ Failure to complete required goals can result in strikes that carry negative con
 
 ## Special Victories
 
-Additionally, you have the option to strive for bonus rewards that affect the current cycle as well as next cycle rewards by completing goals or tasks aimed at additional victories. A list of goals or tasks can be found in the [[White Tiger] Victory Goal List](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1W4JLOZsCzMWtZfd4buRwmc0TKiwOqU4ST8jvJvMn1xE/&sa=D&source=editors&ust=1784378723647211&usg=AOvVaw3VZa8bFYzXLrPFcFWOlkmt). You are not limited to these - if you have an idea for a build, event, task, goal, endeavor, quest, scenario, activity, etc - please submit a GM ticket for inclusion and point assignment.
+Additionally, you have the option to strive for bonus rewards that affect the current cycle as well as next cycle rewards by completing goals or tasks aimed at additional victories. A list of goals or tasks can be found in the [[White Tiger] Victory Goal List](https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1W4JLOZsCzMWtZfd4buRwmc0TKiwOqU4ST8jvJvMn1xE/&sa=D&source=editors&ust=1784382865043302&usg=AOvVaw2zcF3R3jiXvBwUjTjCVe5-). You are not limited to these - if you have an idea for a build, event, task, goal, endeavor, quest, scenario, activity, etc - please submit a GM ticket for inclusion and point assignment.
 
 Each task or goal attributes contribution points to a victory type. Once the server acquires enough points to cross a milestone, the reward for that milestone will be granted by the next restart.
 
@@ -81,7 +81,9 @@ To complete an additional victory, the government must complete the basic requi
 1. All Federal Government buildings are fully developed to a similar fit, form, and function as their real-life counterparts.
 2. Federal Highway is complete.
 
-They come with small in-cycle bonuses at the quarter milestones (25%, 50%, and 75% completion) and thematic rewards for a following cycle, determined by Game Masters. Note: A victory type cannot be achieved in a cycle where its own rewards are active.  
+They come with small in-cycle bonuses at the quarter milestones (25%, 50%, and 75% completion) and thematic rewards for the following cycle. Game Masters may determine that rewards to be granted for the following cycle instead become active in a different, following cycle if that is necessary due to, for example, the next cycle being a playtest cycle or having a special theme that is incompatible with a reward.
+
+Note: A victory type cannot be achieved in a cycle where its own rewards are active.  
   
 Domination Victory:
 
@@ -89,7 +91,7 @@ Domination victory is represented by good governance and generally points are aw
 
 Reward Theme: Efficiency
 
-Next Cycle Reward: The current Prime Minister may choose to become Federal President and to slightly adjust the server concept with Game Masters consent.
+Next Cycle Reward: The Prime Minister at the time of the victory ceremony may enact an adjustment to the server concept for the following cycle, in cooperation with and under condition of approval by Game Masters. If that Prime Minister was the only Prime Minister that cycle, he may choose to become the Monarch in the following cycle.
 
 In-Cycle Milestone Rewards:
 
