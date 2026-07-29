@@ -24,7 +24,11 @@ is punishable with a fine of up to 5 daily rates, in especially serious cases wi
 
 (2) <sup>1</sup>Disposing environmentally damaging substances outside of a legally owned and persistently claimed property is punishable with a fine of up to 5 daily rates.
 
-(3) <sup>1</sup>Being responsible for notable and reasonably avoidable damage to nature on either public or private property is punishable with a fine of at least 3 and up to 10 daily rates, in especially serious cases with a fine of at least 5 and up to 15 daily rates or imprisonment. <sup>2</sup>The convict shall additionally pay compensation for all caused damages, present or future.
+(3) <sup>1</sup>Being responsible for notable and reasonably avoidable damage to the environment on either public or private property is punishable with a fine of at least 3 and up to 10 daily rates, in especially serious cases with a fine of at least 5 and up to 15 daily rates or imprisonment. <sup>2</sup>The convict shall additionally pay compensation for all caused damages, present or future.
+
+(4) <sup>1</sup>Preventing reasonable access to or not providing the ability for garbage trucks to do their task in collecting garbage on private property to the detriment of the surroundings is punishable with a fine of up to 5 daily rates and the expropriation of said stockpile containing the offending substances by administrative officials.
+
+(5) <sup>1</sup>Leaving unattended storages of undesirable materials or items (such as broken tools) on public land is fineable by 1 daily rate and additional reasonable disposal costs.
 
 ## § 5 Corruption [Criminal]
 
@@ -93,7 +97,7 @@ is prohibited. <sup>2</sup>Affected competitors and consumers may file for compe
 
 (1) <sup>1</sup>Only claimed land is generally recognized as protected property of its owner. <sup>2</sup>Unclaimed land and everything located on it is unowned and may be freely claimed and / or used by everyone unless prevented by automatically enforced legislation, except for
 
-1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1781764149971030&usg=AOvVaw23mNM21q5flbRosiZniSZ_) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
+1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1785348309908842&usg=AOvVaw1srKSiGHW319kFsstIu4Rc) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
 2. land that must reasonably be assumed to be part of a claimed property directly adjacent and is likely only unclaimed due to an oversight of that property's owner.
 3. land that if it was claimed would block already claimed land from reasonable expansion in all four directions - such land may not be claimed, but still used.
 
