@@ -2,7 +2,7 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/APuouOeA2p1Aj8j3AHpVaRcsUCQp3utC9fZpUKabeIlz7hnLAxFxNK_A-dNcXEameQ5ry1iw1ILjRz5S2hnNQIqKNhcSdi7h6gmPIgh973-JjfYtWyZSUVVmo2ggbXew6spj159jfy4hJAE2KP-sJk10bDQ=s2048)
+![](https://docs.google.com/docs-images-rt/APuouOeIm4f74QtyRLb_egSdwUjzEdPSex4gwbegDpwlgkLyY4HRXR-uSP3jOqw7lRgZOJNAexlbP8dMQsxsibbjBB5J_ikjV4-Fj0lqnp8GtwUo_RxlLWd0QhDbSeGex9ZOEM8x2riv4muXZkewigzxRLo=s2048)
 
 # § 1 The Federation
 
@@ -22,7 +22,7 @@ of The Federation of White Tiger
 
 (3) <sup>1</sup>Private property shall be guaranteed, but it entails obligations and its use shall also serve the public good. <sup>2</sup>Expropriation is only permissible for the public good and in conjunction with equitable compensation. <sup>3</sup>The Federal Bank may hold bank deposits of abandoned citizens of the federation in trust until their return.
 
-(4) <sup>1</sup>Taxes on income may exclusively be levied by the Federation in an equitable, progressive form and not surpass 50% of the taxable income. <sup>2</sup>Taxes on the trade of goods may exclusively be levied by states and towns and not surpass 5% of the transaction value per administrative unit; this does not apply to steering taxes.<sup>3</sup>Citizens that haven’t learned a specialty may not be subject to taxes on the trade of goods at stores they don’t own and expenses related to such trades must be considered fully when determining their taxable income.  
+(4) <sup>1</sup>Taxes on income may only be levied by the Federation in a progressive form and not surpass 50% of the taxable income, except for companies. <sup>2</sup>Taxes on the trade of goods may exclusively be levied by states and towns and not surpass 5% of the transaction value per administrative unit; this does not apply to steering taxes.<sup>3</sup>Citizens that haven’t learned a specialty may not be subject to taxes on the trade of goods at stores they don’t own and expenses related to such trades must be considered fully when determining their taxable income.  
 (5) <sup>1</sup>Government agencies are required to purchase all goods necessary to fulfil their duties passively at official stores and may only actively purchase goods at private stores in cases of justified necessity. <sup>2</sup>Unless explicitly stated otherwise, they may not accept donations. <sup>3</sup>Unauthorized acceptance of donations constitutes malfeasance.
 
 # § 3 States and Towns
@@ -56,7 +56,7 @@ of The Federation of White Tiger
 
 (2) ¹The Prime Minister is the head of government, determines the guidelines of government policy and has the authority to issue government bonds at his own discretion. <sup>2</sup>If the office becomes vacant, the first willing, incumbent Minister in order of department creation becomes Prime Minister for the remainder of the legislative period.
 
-(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1781549912190965&usg=AOvVaw22XcdOh1ju7eaXqkt6D2e8) by crafting “Skill Books” and for providing education of all levels by crafting "Skill Scrolls" and ensuring their equitable distribution by the Federal University and the States and Towns. <sup>2</sup>The education system should be managed economically, but it is entitled to receive funding from Parliament as necessary for smooth operations.
+(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1786310457981808&usg=AOvVaw1d8GC-NvOHeWIBN334M75d) by crafting “Skill Books” and for providing education of all levels by crafting "Skill Scrolls" and ensuring their equitable distribution by the Federal University and the States and Towns. <sup>2</sup>The education system should be managed economically, but it is entitled to receive funding from Parliament as necessary for smooth operations.
 
 (4) <sup>1</sup>The Minister of Infrastructure oversees and supports the development of the global electricity network, the Federal Highways and the Waterways, including public ports. <sup>2</sup>He advises the house on related budget plans and construction programs, determines the priority of construction projects and works with all local authorities to ensure their obligations in regard to local infrastructure are fulfilled and supported where necessary.
 
