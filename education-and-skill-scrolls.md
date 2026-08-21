@@ -10,7 +10,7 @@ Important Note: Skill Scrolls do NOT give claim papers.
 
 ## Research Schedule
 
-![](https://docs.google.com/docs-images-rt/ABaEjg3CpfUTxtS77E7I5RIsSjxTvpig40-qVw2sMT3M7z46X15D3hgRFFB1YJGQUkkwp-CsCkMDjdSNoIIKQLSBetwtq6A-HQdoh1ab9YJTV163-J77z5_7DgAms8BTTiARmXYH2UBheNuDVwzo82c7pifMl-sPeZg8naIXfgF9=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuztbx6wo4w5UneMC8aTRoYP8Tn9F33MQ_nFVTKs8dRYP3rJKX9hy5VYtNF1xsTmM3EWTNR8T-j4eOug4KDcrQKo9zgayx4DkTVpirKej3XlD3CgJsbWwKuRdfEEt1-UCuXCERsXYplcPHy6AwsGpEj_Lw0gcK1kEmIwiibVJwGwZE=s2048)
 
 ## Town Schools
 
