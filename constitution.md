@@ -2,7 +2,7 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/ALKuztbn5IiuSq3yOvRwruiLhfbU6p_YDz1bbbVyU0AJZFGHGgagJf_1UeFViZ1PaPbMKjaQsyKt2h9QJ-9h2Fbo6wkdBFQjSsWRRN8qKHipi0HI_qLV74yipUwHzd7axpeRGP-_36KsnHjGVRa2IgCG=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuztalTNcphoodVESqdtr24FzOcqgYVZ5dX5kzZHn6qzeEeZ5fK7yjlabOvDNGWsH3oDKESLDDU7AH1T6YgpV-WFtI1xKJl9VpNi8p1kscJYQXramNrb2Kbe6lGrLkaqdsRsmxYDG9xyitHmk1hCwq=s2048)
 
 # § 1 The Federation
 
@@ -43,7 +43,7 @@ of The Federation of White Tiger
 
 # § 5 The Crown
 
-(1) <sup>1</sup>The Crown is the embodiment of the state and its authority, all federal sovereign acts hence happen in its name. <sup>2</sup>It is represented by the Community Manager of Eco acting as the Monarch, who enjoys sovereign immunity. <sup>3</sup>The Monarch serves as Head of State of the Federation and is responsible for protecting and preserving this Federal Constitution. <sup>4</sup>Property of the Crown and the Monarch is exempted from all taxation. <sup>5</sup>All powers of the Monarch may, in his absence or on his express instruction, be executed jointly by at least two impartial Game Masters acting as Counsellors of State.
+(1) <sup>1</sup>The Crown is the embodiment of the state and its authority, all federal sovereign acts hence happen in its name. <sup>2</sup>It is represented by the Community Manager of Eco acting as the Monarch, who shall be paid a wage according to the federal salary scale and enjoy sovereign immunity. <sup>3</sup>The Monarch serves as Head of State of the Federation and is responsible for protecting and preserving this Federal Constitution. <sup>4</sup>Property of the Crown and the Monarch is exempted from all taxation. <sup>5</sup>All powers of the Monarch may, in his absence or on his express instruction, be executed jointly by at least two impartial Game Masters acting as Counsellors of State.
 
 (2) <sup>1</sup>The Monarch grants or withholds royal assent and executes the royal prerogative of mercy. <sup>2</sup>He also creates, grants and revokes honours that may entitle its holders to a membership in the House of Lords.
 
@@ -55,7 +55,7 @@ of The Federation of White Tiger
 
 (2) ¹The Prime Minister is the head of government, determines the guidelines of government policy and has the authority to issue government bonds at his own discretion. <sup>2</sup>If the office becomes vacant, the first willing, incumbent Minister in order of department creation becomes Prime Minister for the remainder of the legislative period.
 
-(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1788161196355279&usg=AOvVaw3sc81yxpghv5kiK02klzuv) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
+(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1788211835425968&usg=AOvVaw3o-JZ7AULl0_8MpnQOWtPw) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
 
 (4) <sup>1</sup>The Minister of Infrastructure oversees and supports the development of the global electricity network, the Federal Highways and the Waterways, including public ports. <sup>2</sup>He advises the house on related budget plans and construction programs, determines the priority of construction projects and works with all local authorities to ensure their obligations in regard to local infrastructure are fulfilled and supported where necessary.
 
