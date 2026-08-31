@@ -2,7 +2,7 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/ALKuztZkhGCB-PrRVFhscDo8JIDnu3sHNIbQrT60Ts3eVWb1NOzHalWH2iCG11TDWInxCA3sL1L2yTtfvvsUQTTFD4UiVvViGxFTdbkWC76A_8kXrOtUUxlQ0iDXFOqVf9MqpCIu-jLg8Iq1GhSNFdUW=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuztbn5IiuSq3yOvRwruiLhfbU6p_YDz1bbbVyU0AJZFGHGgagJf_1UeFViZ1PaPbMKjaQsyKt2h9QJ-9h2Fbo6wkdBFQjSsWRRN8qKHipi0HI_qLV74yipUwHzd7axpeRGP-_36KsnHjGVRa2IgCG=s2048)
 
 # § 1 The Federation
 
@@ -55,7 +55,7 @@ of The Federation of White Tiger
 
 (2) ¹The Prime Minister is the head of government, determines the guidelines of government policy and has the authority to issue government bonds at his own discretion. <sup>2</sup>If the office becomes vacant, the first willing, incumbent Minister in order of department creation becomes Prime Minister for the remainder of the legislative period.
 
-(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1788138200790481&usg=AOvVaw2MIg22Qnbcs6U1S92rtwU_) by crafting “Skill Books” and for providing education to its citizens by crafting "Skill Scrolls" and ensuring their equitable distribution through the Federal University and the States and Towns. <sup>2</sup>The education system is managed economically, but also entitled to any additional funding necessary to fulfil its obligations.
+(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1788161196355279&usg=AOvVaw3sc81yxpghv5kiK02klzuv) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
 
 (4) <sup>1</sup>The Minister of Infrastructure oversees and supports the development of the global electricity network, the Federal Highways and the Waterways, including public ports. <sup>2</sup>He advises the house on related budget plans and construction programs, determines the priority of construction projects and works with all local authorities to ensure their obligations in regard to local infrastructure are fulfilled and supported where necessary.
 
