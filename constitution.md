@@ -2,7 +2,7 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/ALKuztalTNcphoodVESqdtr24FzOcqgYVZ5dX5kzZHn6qzeEeZ5fK7yjlabOvDNGWsH3oDKESLDDU7AH1T6YgpV-WFtI1xKJl9VpNi8p1kscJYQXramNrb2Kbe6lGrLkaqdsRsmxYDG9xyitHmk1hCwq=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuztbINDo4ZvgdH6vp3S59qCb4d6cMSFS6KAFk4UPBtKkJOYwQpvnO_Qh8p0BT-Xa35TTRlSPiDN1AB1LsQJzLp7eXViMMiOzPfMGBtMQ2yNApCfGniVUEXX40NZ9OSf2NiRBy-n7xUTKJOXRfNAA3=s2048)
 
 # § 1 The Federation
 
@@ -14,7 +14,7 @@ of The Federation of White Tiger
 
 # § 2 Basic Rights
 
-(1) <sup>1</sup>All citizens of the federation are equal before the law. <sup>2</sup>They enjoy freedom of art; freedom of faith, conscience and ideological confession as well as freedom of movement and residence. <sup>3</sup>They have the right to assemble peacefully; freely choose their occupation; freely express their opinion and form societies and other associations. <sup>4</sup>They are guaranteed access to the federal judiciary and local and federal referendums.
+(1) <sup>1</sup>All citizens of the federation are equal before the law. <sup>2</sup>They enjoy freedom of art; freedom of faith, conscience and ideological confession as well as freedom of movement and residence. <sup>3</sup>They have the right to assemble peacefully; freely choose their occupation; freely express their opinion and form societies and other associations. <sup>4</sup>They are guaranteed access to the federal judiciary and local as federal referendums.
 
 (2) <sup>1</sup>Minorities and ethical playstyles may not be discriminated against, legislation that would disproportionately affect them must provide for appropriate hardship provisions.
 
@@ -55,7 +55,7 @@ of The Federation of White Tiger
 
 (2) ¹The Prime Minister is the head of government, determines the guidelines of government policy and has the authority to issue government bonds at his own discretion. <sup>2</sup>If the office becomes vacant, the first willing, incumbent Minister in order of department creation becomes Prime Minister for the remainder of the legislative period.
 
-(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1788211835425968&usg=AOvVaw3o-JZ7AULl0_8MpnQOWtPw) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
+(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1788376510367231&usg=AOvVaw0cTty5pX2_aMiKA7sF4uVd) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
 
 (4) <sup>1</sup>The Minister of Infrastructure oversees and supports the development of the global electricity network, the Federal Highways and the Waterways, including public ports. <sup>2</sup>He advises the house on related budget plans and construction programs, determines the priority of construction projects and works with all local authorities to ensure their obligations in regard to local infrastructure are fulfilled and supported where necessary.
 

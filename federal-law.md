@@ -20,15 +20,15 @@ is punishable with a fine of up to 5 daily rates, in especially serious cases wi
 
 ## § 4 Environmental Damage [Criminal, Public]
 
-(1) <sup>1</sup>Failing to contain environmentally damaging substances in a way that reasonably protects the environment from harm entails an administrative fine of up to 1.000 £.
+(1) <sup>1</sup>Abandoning items or objects on unclaimed land is prohibited. <sup>2</sup>An item or object is presumed abandoned no later than 24 hours after its owner’s last interaction with it. <sup>3</sup>Violating this clause is punishable by an administrative fine of up to £500.
 
-(2) <sup>1</sup>Disposing environmentally damaging substances outside of a legally owned and persistently claimed property is punishable with a fine of up to 5 daily rates.
+(2) <sup>1</sup>Owners of operations that produce pollutants are required to make them available for pickup by waste collection services under reasonable conditions at least once a day. <sup>2</sup>Competent authorities may grant an exemption from this clause if the owner of such operation is capable of treating pollutants and actively and consistently conducts such treatment. <sup>3</sup>Violating this clause is punishable by an administrative fine of up to £1,000.
 
-(3) <sup>1</sup>Being responsible for notable and reasonably avoidable damage to the environment on either public or private property is punishable with a fine of at least 3 and up to 10 daily rates, in especially serious cases with a fine of at least 5 and up to 15 daily rates or imprisonment. <sup>2</sup>The convict shall additionally pay compensation for all caused damages, present or future.
+(3) <sup>1</sup>Owners of operations that cause pollution are required to minimize it by using all available, reasonable strategic and technological means. <sup>2</sup>Violating this clause is punishable by an administrative fine of up to £5,000 and may result in the operation being subjected to conditions, limitations or prohibition until the deficiencies are resolved. <sup>3</sup>Pollutants that are the source of pollution significantly affecting farms or residences are considered an immediate danger and may be removed by competent authorities at the owner’s expense without prior warning.
 
-(4) <sup>1</sup>Preventing reasonable access to or not providing the ability for garbage trucks to do their task in collecting garbage on private property to the detriment of the surroundings is punishable with a fine of up to 5 daily rates and the expropriation of said stockpile containing the offending substances by administrative officials.
+(4) <sup>1</sup>Disposing pollutants outside of personal, persistently claimed property or a district or property designated for that purpose is punishable by a fine of up to 5 daily rates.
 
-(5) <sup>1</sup>Leaving unattended storages of undesirable materials or items (such as broken tools) on public land is fineable by 1 daily rate and additional reasonable disposal costs.
+(5) <sup>1</sup>Being responsible for significant and reasonably avoidable damage to the environment is punishable with a fine of up to 5 daily rates. <sup>2</sup>If the damage affects farms or residences the penalty is at least 3 and up to 10 daily rates instead, increasing further to at least 5 and up to 15 daily rates or imprisonment in especially serious cases. <sup>3</sup>A conviction obligates the convict to compensate all damages caused, present or future.
 
 ## § 5 Corruption [Criminal]
 
@@ -56,15 +56,15 @@ is punishable with a fine of up to 5 daily rates, in especially serious cases wi
 
 (2) If a rent calculation does not reasonably take into account the housing value of the residence, the landlord is responsible to ensure that it does not for a significant duration drop notably below the value it had at the time the rental agreement was concluded.
 
-(3) Violating this law entails an administrative fine of up to 1.000 £.
+(3) Violating this law entails an administrative fine of up to £1.000.
 
 ## § 2 Minimum Pay [Private, Public]
 
-(1) Providing labour in a work party must be compensated per 1000 labour with at least 30 £ until Day 7, 40 £ from Day 8 to Day 14 and 50 £ as of Day 15.
+(1) Providing labour in a work party must be compensated per 1000 labour with at least £30 until Day 7, £40 from Day 8 to Day 14 and £50 as of Day 15.
 
-(2) Providing work time in contracts must be compensated with at least 100 £ per hour.
+(2) Providing work time in contracts must be compensated with at least £100 per hour.
 
-(3) Violating this law entails an administrative fine of up to 1.000 £.
+(3) Violating this law entails an administrative fine of up to £1.000.
 
 ## § 3 Unfair Competition [Private]
 
@@ -99,7 +99,7 @@ is prohibited. <sup>2</sup>Affected competitors and consumers may file for compe
 
 (1) <sup>1</sup>Only claimed land is generally recognized as protected property of its owner. <sup>2</sup>Unclaimed land and everything located on it is unowned and may be freely claimed and / or used by everyone unless prevented by automatically enforced legislation, except for
 
-1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1787346906031088&usg=AOvVaw2WL2Z1pfry-G4xjB8Vbe8r) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
+1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1788376511117920&usg=AOvVaw0Zw01ltm4BaHykYwc4MxX6) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
 2. land that must reasonably be assumed to be part of a claimed property directly adjacent and is likely only unclaimed due to an oversight of that property's owner.
 3. land that if it was claimed would block already claimed land from reasonable expansion in all four directions - such land may not be claimed, but still used.
 
