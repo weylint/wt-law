@@ -12,11 +12,11 @@
 2. closing a deal without using a suitable object that supports automatic taxation;
 3. converting assets into different ones or selling items using objects not primarily intended for that if a main goal is to benefit of lower taxation resulting from that;
 
-is punishable with a fine of up to 5 daily rates, in especially serious cases with a fine of at least 3 and up to 10 daily rates. ²The convict shall additionally pay all evaded taxes. ³A sentence shall not be imposed for first time offenders who declared and paid all evaded taxes voluntarily before official investigations against them were announced.
+is punishable with a fine of up to 5 daily rates, in especially serious cases with a fine of at least 3 and up to 10 daily rates. ²A conviction does not discharge liability for evaded taxes. ³A sentence shall not be imposed for first time offenders who declared and paid all evaded taxes voluntarily before official investigations against them were announced.
 
 ## § 3 Exploitation [Criminal]
 
-<sup>1</sup>Gaining a monetary benefit for oneself or a third party through the use of deceit, falsehood or other fraudulent means or causing a pecuniary damage to citizens or legal entities by exploiting their inexperience or an obvious error is punishable with a fine of up to 5 daily rates, in especially serious cases with a fine of at least 3 and up to 7 daily rates. <sup>2</sup>The convict shall additionally return all pecuniary advantages gained to the injured parties and pay compensation for all caused damages.
+<sup>1</sup>Gaining a monetary benefit for oneself or a third party through the use of deceit, falsehood or other fraudulent means or causing a pecuniary damage to citizens or legal entities by exploiting their inexperience or an obvious error is punishable with a fine of up to 5 daily rates, in especially serious cases with a fine of at least 3 and up to 7 daily rates. <sup>2</sup>A conviction obligates the convict to return all pecuniary advantages gained to the injured parties and to compensate all damages caused.
 
 ## § 4 Environmental Damage [Criminal, Public]
 
@@ -46,7 +46,7 @@ is punishable with a fine of up to 5 daily rates, in especially serious cases wi
 
 ## § 6 High Treason [Criminal]
 
-<sup>1</sup>Acting wilfully against the state goals of the Federation of White Tiger while being entrusted with sovereign duties, either by action or through intentional inaction is punishable with a fine of at least 5 and up to 15 daily rates or imprisonment, in especially serious cases with a fine of at least 7 and up to 30 daily rates or imprisonment. <sup>2</sup>The convict shall lose any position entrusted with sovereign duties and is no longer eligible to hold such positions for a time to be determined by the court.
+<sup>1</sup>Acting wilfully against the state goals of the Federation of White Tiger while being entrusted with sovereign duties, either by action or through intentional inaction is punishable with a fine of at least 5 and up to 15 daily rates or imprisonment, in especially serious cases with a fine of at least 7 and up to 30 daily rates or imprisonment. <sup>2</sup>A conviction disqualifies the convict from holding offices entrusted with sovereign duties for a time to be determined by the court and results in the forfeiture of any such offices currently held.
 
 # II. PRIVATE LAW
 
@@ -85,7 +85,7 @@ is prohibited. <sup>2</sup>Affected competitors and consumers may file for compe
 
 ## § 1 Construction [Public]
 
-<sup>1</sup>Buildings must be constructed and objects placed in a physically realistic manner comparable with their real counterparts once Day 4 starts. <sup>2</sup>Violating this law clause entails an administrative fine of up to 500 £. <sup>3</sup>The Federation may assume enforcement of this law instead of lower authorities.
+<sup>1</sup>Buildings must be constructed and objects placed in a physically realistic manner comparable with their real counterparts once Day 4 starts. <sup>2</sup>Violating this law clause entails an administrative fine of up to £500. <sup>3</sup>The Federation may assume enforcement of this law instead of lower authorities.
 
 ## 
 
@@ -93,13 +93,13 @@ is prohibited. <sup>2</sup>Affected competitors and consumers may file for compe
 
 (1) <sup>1</sup>The global electricity network, including all transmission poles and street lights, is considered public power infrastructure managed by the federal government.
 
-(2) <sup>1</sup>Supplying power networks with electrical or mechanical power does not entitle to any compensation. <sup>2</sup>Power producers must ensure themselves by technical means that their operations are disconnected from any networks if they do not wish to supply them.
+(2) <sup>1</sup>Supplying power networks with electrical or mechanical power does not entitle to any compensation. <sup>2</sup>Power producers must ensure themselves by technical means that their operations are disconnected from any networks if they do not wish to supply them.
 
 ## § 3 Property [Public]
 
 (1) <sup>1</sup>Only claimed land is generally recognized as protected property of its owner. <sup>2</sup>Unclaimed land and everything located on it is unowned and may be freely claimed and / or used by everyone unless prevented by automatically enforced legislation, except for
 
-1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1788376511117920&usg=AOvVaw0Zw01ltm4BaHykYwc4MxX6) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
+1. public infrastructure as determined by [[White Tiger] Government Guidelines](https://www.google.com/url?q=https://docs.google.com/document/d/1rwARG_BJvqaZ38-A7ujgYT2obTnDtWIaMZHZVeY2-g8/?tab%3Dt.0%23heading%3Dh.ahbe5zlj74dg&sa=D&source=editors&ust=1788388011080931&usg=AOvVaw2iSy_OMMdEcNWoe72uW-bF) or law - provided and to the extent it is immediately apparent as such -, which is managed by the specified authority and, if not claimed by it, owned by the Crown.
 2. land that must reasonably be assumed to be part of a claimed property directly adjacent and is likely only unclaimed due to an oversight of that property's owner.
 3. land that if it was claimed would block already claimed land from reasonable expansion in all four directions - such land may not be claimed, but still used.
 
@@ -117,4 +117,4 @@ is prohibited. <sup>2</sup>Affected competitors and consumers may file for compe
 
 (2) <sup>1</sup>Parking is only allowed on dedicated parking lots and mooring areas as well as private property permitting so. <sup>2</sup>Traffic infrastructure may only be used for short-term parking intended solely for loading and unloading in the least obstructive way possible.
 
-(3) <sup>1</sup>Abandoning a vehicle outside of one’s own private property or causing notable obstruction of infrastructure with a vehicle that could have reasonably been avoided or that is persistent for more than 24 hours entails an administrative fine of up to 250 £ and the impounding of the vehicle until the fine has been paid and the vehicle collected.
+(3) <sup>1</sup>Abandoning a vehicle outside of one’s own private property or causing notable obstruction of infrastructure with a vehicle that could have reasonably been avoided or that is persistent for more than 24 hours entails an administrative fine of up to £250 and the impounding of the vehicle until the fine has been paid and the vehicle collected.
