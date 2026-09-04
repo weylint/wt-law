@@ -2,7 +2,7 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/ALKuztZLVlxhYA69alph6GFU6tLYaIQ9UhlH3STUzui_WOIVrFlRY47ZAY4j6I96YyK6EMSoqntdFICaZq3h9aXavI0PugclnPrvYHtE-jHWFedlK7V7dTsU8O5jIWMvp6VUrsFb1eefIefRn3-EqKqq=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuztZcmCkAKmPwYJVOpz5cJzy1xLxIjygyqOqZA7WQRPZA6c6X2H_FcNNpRahoWAt0_FS6RyQYgCgAd-fMZYJn_y4Hpn_pJD2dwoFm1nfnKtHqiVkx3PWgm0QlFvkP1iO8jvIjRGiWuuYnrLmGjl0S=s2048)
 
 # § 1 The Federation
 
@@ -26,7 +26,7 @@ of The Federation of White Tiger
 
 # § 3 States and Towns
 
-(1) <sup>1</sup>States and Towns enjoy autonomy for their finances, governance and legislation.  <sup>2</sup>Their constitution may only assign powers to titles directly or indirectly elected by citizens and must establish a Governor respectively Mayor as Head of Government that is electable by all their non-abandoned citizens from all their active citizens. <sup>3</sup>The legislature of a state or town is performed by its Head of Government, except for if its constitution determines it to instead be performed by specific bodies to which no executive powers may then be delegated. <sup>4</sup>Their citizens have the right to demand an election to be held for any office they are eligible to vote for if that office is vacant or the last election for it finished 6 or more days ago. <sup>5</sup>Deviating from §2 (1) S. 5, a referendum confined to a state or town may also affect its constitutional legislation and does not require a minimum turnout.
+(1) <sup>1</sup>States and Towns enjoy autonomy for their finances, governance and legislation.  <sup>2</sup>Their constitution must not assign any powers directly to specific citizens and must establish a Governor respectively Mayor as Head of Government that is electable by all their non-abandoned citizens from all their active citizens. <sup>3</sup>The legislature of a state or town is performed by its Head of Government, except for if its constitution determines it to instead be performed by specific bodies to which no executive powers may then be delegated. <sup>4</sup>Their citizens have the right to demand an election to be held for any office they are eligible to vote for if that office is vacant or the last election for it finished 6 or more days ago. <sup>5</sup>Deviating from §2 (1) S. 5, a referendum confined to a state or town may also affect its constitutional legislation and does not require a minimum turnout.
 
 (2) <sup>1</sup>States and Towns develop their territory, primarily by establishing infrastructure and public services and support the Federation with its duties. <sup>2</sup>Their executive may appoint Civil Servants serving at its pleasure or instruct contractors to assist them in doing so, in exchange for adequate compensation. <sup>3</sup>They may assign property and zone their territory at their political discretion, exercised in a reasonable way free of arbitrariness.
 
@@ -55,7 +55,7 @@ of The Federation of White Tiger
 
 (2) ¹The Prime Minister is the head of government, determines the guidelines of government policy and has the authority to issue government bonds at his own discretion. <sup>2</sup>If the office becomes vacant, the first willing, incumbent Minister in order of department creation becomes Prime Minister for the remainder of the legislative period.
 
-(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1788555844338170&usg=AOvVaw1Z8ixmCA3M8t9pL6_QL57v) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
+(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1788565165037901&usg=AOvVaw1nXwsx9V7LDhNK1cQIaqTr) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
 
 (4) <sup>1</sup>The Minister of Infrastructure oversees and supports the development of the global electricity network, the Federal Highways and the Waterways, including public ports. <sup>2</sup>He advises the house on related budget plans and construction programs, determines the priority of construction projects and works with all local authorities to ensure their obligations in regard to local infrastructure are fulfilled and supported where necessary.
 
