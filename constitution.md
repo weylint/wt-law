@@ -2,11 +2,11 @@ The Constitution
 
 of The Federation of White Tiger
 
-![](https://docs.google.com/docs-images-rt/ALKuztas8jRDVkAiaiFASWAedq8U-703Y4F35xHbcpd5GWlG4-slBxkWQ25Qhsdg-qYzsZ-RSRcHLoNeLHI0mK2qNMPwDG_BFhmUQ-0lSQ_rFZl8FfXRLDUcAGdzuoZ84M09Fyb07hVDPMAz9ORzeplr=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuztbyM8hSCEbXpSQ8qJGeOTYR1C_iLDYrdJV8nBBWmU6IlVm4vQ_FpgfPnp7ffSjqF90SkrsjLtaU6Gb5XgwFcZMaG6xL8hvJy6KDQtcn5vo3xffuRHF5ypJ9SxkqvTzemJapD-GJM9IZ8kQStE9-=s2048)
 
 # § 1 The Federation
 
-(1) <sup>1</sup>The Federation of White Tiger is a constitutional, federal monarchy composed of states and towns, which can both be founded freely by a sufficient number of citizens. <sup>2</sup>The Federation and its states and towns are administrative units in descending hierarchical order. <sup>3</sup>Towns may become members of states by elective accession or mandatory annexation. <sup>4</sup>The Federation’s sole legal tender is the currency “Pound”. Test
+(1) <sup>1</sup>The Federation of White Tiger is a constitutional, federal monarchy composed of states and towns, which can both be founded freely by a sufficient number of citizens. <sup>2</sup>The Federation and its states and towns are administrative units in descending hierarchical order. <sup>3</sup>Towns may become members of states by elective accession or mandatory annexation. <sup>4</sup>The Federation’s sole legal tender is the currency “Pound”.
 
 (2) <sup>1</sup>The Federation’s national objectives are cultural and technological advancement; the upholding of its constitutional, democratic and social values; the preservation of nature and the protection of the planet and all its inhabitants from natural disasters.
 
@@ -55,7 +55,7 @@ of The Federation of White Tiger
 
 (2) ¹The Prime Minister is the head of government, determines the guidelines of government policy and has the authority to issue government bonds at his own discretion. <sup>2</sup>If the office becomes vacant, the first willing, incumbent Minister in order of department creation becomes Prime Minister for the remainder of the legislative period.
 
-(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1789141399984733&usg=AOvVaw14rQp44JoX5SVfv0_C_wNw) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
+(3) <sup>1</sup>The Minister of Education is responsible for progressing the Federation through the [research schedule](https://www.google.com/url?q=https://docs.google.com/document/d/1i0BbrYrKPfL-wFLYUdctm_PwO3_HrJSB31sPK0fA86U/view?tab%3Dt.0%23heading%3Dh.cujrz0xx9vy7&sa=D&source=editors&ust=1789347146606791&usg=AOvVaw2nyGRIQ9fIIDwFediAwB8Y) by crafting “Skill Books” and for educating its citizens by crafting "Skill Scrolls" and distributing them via the Federal University and the States and Towns. <sup>2</sup>The education system shall be managed economically, but is entitled to receive funding required to fulfil its obligation to provide all citizens with equitable access to education.
 
 (4) <sup>1</sup>The Minister of Infrastructure oversees and supports the development of the global electricity network, the Federal Highways and the Waterways, including public ports. <sup>2</sup>He advises the house on related budget plans and construction programs, determines the priority of construction projects and works with all local authorities to ensure their obligations in regard to local infrastructure are fulfilled and supported where necessary.
 
