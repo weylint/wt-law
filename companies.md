@@ -40,7 +40,7 @@ Now the CEO needs to invite everyone that should be an employee of the company:
 
 /company invite <Player Name>
 
-The invited players need to accept this invitation, but note that players can only join one company and only when they do not currently have a homestead placed down in the world. The invitation is sent as a notification and can be accepted with this command (which can also be copied from the notification and pasted into the chat):![](https://docs.google.com/docs-images-rt/ABaEjg2TVZao_qkbhy2Sp8_q1N5AVnaStZD9G_rkugGJl5pdSz5Ql1Hfoxie_R7PgXu-D1jMgmn6PiRsuayZ6ZG8CfY7dvQz1CNDDqrirBlfmZsuUmWp8yD9q-uRWmaAD3HmNxbIFcBlR6MJPlt7bcc=s2048)
+The invited players need to accept this invitation, but note that players can only join one company and only when they do not currently have a homestead placed down in the world. The invitation is sent as a notification and can be accepted with this command (which can also be copied from the notification and pasted into the chat):![](https://docs.google.com/docs-images-rt/ALKuztYAqtpzZ3zrdZ9N2pH82cnDjR3FZo2xOq6VlDN9vNBkKCbbkrv6cWc0WCz_aNkYyD4Gw3BdZWeQoZRFQSzVCjkUuoaLHvVhpSvfSU36zLhL58ODtBpm9szqQGNR5OusdKbTHt9DmZmOCS8kjiDD=s2048)
 
 /company join <Name of Company>
 
@@ -60,11 +60,11 @@ When an invite was accepted, the bank balances of and all deeds owned by the new
 
 New deeds can be created by placing a claimstake, the employee doing so will be able to give it a name in the appearing pop up:
 
-![](https://docs.google.com/docs-images-rt/ABaEjg1yAu9Ghbat6fewqEIPTVD_mfCrLV-aReN7-OX9ySnS6p-C41mRigaZJCC6jwpgQAj8TTo3BnbJYHP0IsLd4n6KXmQ1wlN9IxYSewlUgyAcMqtNATJfzWQrBMBIZLPASX9ppB7OGkAY7MjdK0c=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuzta53PZt1R7rYyGJW-UMdZjQNvua8RDYnnflWfPO3MLiDKDtujhi2TKI3wBfDIbIMBw22puzjD6a9Uzht0oan2QLU5OrYzTW6UH5lGvZthsIOnS_reWGBJ69OELLduC3izjD3fZSTz9wxfkYONAD=s2048)
 
 It is not necessary to enter a name, in that case it will be automatically generated. The deed created will automatically be transferred to the company's legal person and all members of the company will receive a notification about that:
 
-![](https://docs.google.com/docs-images-rt/ABaEjg37djjyV_jIlBisfRxbT18Ee0hOvaw4TS6FU8gclEeqda1cr4mlgQ2FY1O9ovfOcOKXwLtqxs0V286cXNgJUxLHPzNcm0I10Ce1dZGKroJTUDPsBdwSchqGLTtcW17UCzXQE7a4MJpBm6G-=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuztaXUZeDs6QT5cPjDC2yAjqlgbgn7jWjhKPa_iyZozV87uRS5eVVPMZKhH010t_XyiG4bKB3PizhKmLJmRvvkhHhjCpcjwJAT6-LBrnamcxIjKHSexq4shNcE7kueLnP8N96AitgYksyOLXafg=s2048)
 
 ## Editing deeds
 
@@ -128,7 +128,7 @@ If A is greater than B, for every A more than B an amount of 20% of the company'
 
 On a graph that looks as follows, you can see the taxed income and remaining income based on the number of unique skills in your company that the company has in excess to what the most advanced employee in the company has (and as such an equally advanced solo player could have).
 
-![](https://docs.google.com/docs-images-rt/ABaEjg1DJjGVZnKPSohL5lYoDCvDOb7t6ICIRrccor1LU6RZK4SczdkcxvKR3jBoZ9ZtjnHKu2_8szEm2yvTio503gk12zxJItO3WxZZWgjx5yt4hIuczBvG2Yngnm6xLEJjrQ3EIG3igu8BrHqo=s2048)
+![](https://docs.google.com/docs-images-rt/ALKuztZGWZElbiY4IhK_OOi-WU1Zfa1jE-Y1IIMxQoyuz41bR4ELJCmOAt0H7xgqqHoAYQaFZrJLeBRWwOmSOyYB-PMX9jrekayUowNXGlxGSDBTQ5u85BF0zrwILvBUedOouG0NkllPhWqMuO5zsg=s2048)
 
 As you can see it is very important that you communicate with your friends about learning specialties before doing so if you want to avoid the company tax. You can only reduce the tax rate by abandoning excess specialties via the respective game feature.
 
@@ -138,7 +138,7 @@ Tip: If you want to avoid this tax completely, ensure that every employee learn
 
 As already noted, players cannot leave a company. The only exception is if an employee has not played on the server for at least 72 hours and is not going to join the server anymore. In this case, the CEO is allowed to remove the employee from their company. You can do so by using the command: /company fire <PLAYER NAME>.
 
-If not an employee but the CEO fulfils these requirements, you can request the CEO to be replaced by an employee of the company via opening a [ticket on Discord](https://www.google.com/url?q=https://discord.com/channels/254025510651297802/1218289251800711178&sa=D&source=editors&ust=1776708511622735&usg=AOvVaw2cLEspZlnINO28cXtO8N2p). When the CEO is replaced it becomes a normal employee and the prior paragraph applies.
+If not an employee but the CEO fulfils these requirements, you can request the CEO to be replaced by an employee of the company via opening a [ticket on Discord](https://www.google.com/url?q=https://discord.com/channels/254025510651297802/1218289251800711178&sa=D&source=editors&ust=1792030042682200&usg=AOvVaw2Hdshk8WpQ0kj_GZxhS5LD). When the CEO is replaced it becomes a normal employee and the prior paragraph applies.
 
 Please note that a player being fired from a company for it to gain a lower company tax rate while still actively playing on the server is a violation of § 2 (1) of our server rules.
 
@@ -158,7 +158,7 @@ Fix issues with claim limit of company HQ being incorrect:
 
 /company hq refreshsize
 
-If none of these commands could solve your problem, open a [ticket on Discord](https://www.google.com/url?q=https://discord.com/channels/254025510651297802/1218289251800711178&sa=D&source=editors&ust=1776708511623740&usg=AOvVaw2ostIMQKPqUhAjc5ocU4BR).
+If none of these commands could solve your problem, open a [ticket on Discord](https://www.google.com/url?q=https://discord.com/channels/254025510651297802/1218289251800711178&sa=D&source=editors&ust=1792030042684289&usg=AOvVaw0uqBAMDmnHT2Uy7Fjzx6MK).
 
 # What else should we know?
 
